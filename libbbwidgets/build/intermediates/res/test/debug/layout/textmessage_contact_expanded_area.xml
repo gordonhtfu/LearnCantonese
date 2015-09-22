@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.blackberry.widgets.tagview.contact.textmessage.TextMessageContactExpandedArea
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/textmessage_contact_expanded_area.xml --><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/layout/textmessage_contact_expanded_area.xml -->

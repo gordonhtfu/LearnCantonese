@@ -1,0 +1,34 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "com.blackberry.lib.emailprovider"
+        minSdkVersion 19
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':libcommon')
+    compile project(':libcommonui')
+    compile project(':libphotoviewer')
+    compile project(':libtasks')
+    compile project(':libtokens')
+    compile project(':libbbwidgets')
+    compile project(':libpimclient')
+    compile project(':libpimbase')
+    compile project(':libnotes')
+    compile 'com.google.guava:guava:16.0.1'
+    compile files('libs/android-support-v13.jar')
+    compile files('libs/com.blackberry.menu.jar')
+}

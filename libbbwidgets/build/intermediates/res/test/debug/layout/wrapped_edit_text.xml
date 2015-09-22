@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tags="http://schemas.android.com/apk/res-auto"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:minWidth="100dp"
+          android:inputType="text"
+          tags:layout_fill_remaining_width="true"/>
+<!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/wrapped_edit_text.xml --><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/layout/wrapped_edit_text.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tagview="http://schemas.android.com/apk/res-auto">
+
+    <item android:color="@color/bright_text_selected" android:state_selected="true" />
+    <item android:color="@color/bright_text_error" tagview:state_invalid="true" />
+    <item android:color="@color/bright_text_primary" />
+
+</selector><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/color/tag_text_color.xml -->

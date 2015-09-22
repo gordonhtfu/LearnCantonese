@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="email_external_tag_gradient_top">#F4CFD8</color>
+    <color name="email_external_tag_gradient_bottom">#DBBAC3</color>
+    <color name="email_external_tag_selected_gradient_top">#CC3399</color>
+    <color name="email_external_tag_selected_gradient_bottom">#B22D86</color>
+</resources>

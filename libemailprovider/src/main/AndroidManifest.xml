@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blackberry.lib.emailprovider"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <permission
+        android:name="com.blackberry.email.permission.READ_ATTACHMENT"
+        android:description="@string/permission_read_attachment_desc"
+        android:label="@string/permission_read_attachment_label"
+        android:permissionGroup="android.permission-group.MESSAGES"
+        android:protectionLevel="dangerous" />
+    <permission
+        android:name="com.blackberry.email.permission.ACCESS_EMAILSERVICES"
+        android:description="@string/permission_access_provider_desc"
+        android:label="@string/permission_access_provider_label"
+        android:protectionLevel="dangerous" />
+    <permission
+        android:name="com.blackberry.permission.READ_EMAILS"
+        android:description="@string/permission_access_provider_desc"
+        android:label="@string/permission_access_provider_label"
+        android:protectionLevel="dangerous" />
+    <permission
+        android:name="com.blackberry.permission.WRITE_EMAILS"
+        android:description="@string/permission_access_provider_desc"
+        android:label="@string/permission_access_provider_label"
+        android:protectionLevel="dangerous" />
+    <permission
+        android:name="com.blackberry.permission.INCOMING_INTERCEPTOR"
+        android:description="@string/permission_access_provider_desc"
+        android:label="@string/permission_access_provider_label"
+        android:protectionLevel="dangerous" />
+    <permission
+        android:name="com.blackberry.permission.OUTGOING_INTERCEPTOR"
+        android:description="@string/permission_access_provider_desc"
+        android:label="@string/permission_access_provider_label"
+        android:protectionLevel="dangerous" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.blackberry.email.activity.ViewEmailActivity"
+            android:label="@string/title_activity_view_email" >
+        </activity>
+        <activity
+            android:name="com.blackberry.email.ui.compose.controllers.ComposeActivity"
+            android:exported="true"
+            android:theme="@style/ComposeTheme" >
+            <intent-filter>
+                <action android:name="com.blackberry.email.COMPOSE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.blackberry.email.COMPOSE" />
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="mailto" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="mailto" />
+            </intent-filter>
+            <intent-filter android:label="@string/compose" >
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter android:label="@string/compose" >
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter android:label="@string/compose" >
+                <action android:name="com.blackberry.email.COMPOSE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.AccountSetupBasics"
+            android:exported="true"
+            android:label="@string/account_setup_basics_title" >
+            <intent-filter>
+                <action android:name="com.blackberry.email.CREATE_ACCOUNT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" >
+                </action>
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.blackberry.account" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.AccountSetupType"
+            android:label="@string/account_setup_account_type_title" >
+        </activity>
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.AccountSetupIncoming"
+            android:label="@string/account_setup_incoming_title" >
+        </activity>
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.AccountSetupOutgoing"
+            android:label="@string/account_setup_outgoing_title" >
+        </activity>
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.AccountSetupOptions"
+            android:label="@string/account_setup_options_title" >
+        </activity>
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.AccountSetupNames"
+            android:label="@string/account_setup_names_title" >
+        </activity>
+        <!-- Must be exported in order for the AccountManager to launch it -->
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.AccountSettings"
+            android:exported="true"
+            android:label="@string/settings_activity_title" >
+            <intent-filter>
+                <action android:name="com.blackberry.email.activity.setup.ACCOUNT_MANAGER_ENTRY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="ui.email.blackberry.com"
+                    android:pathPrefix="/settings"
+                    android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.AccountSecurity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/account_security_title"
+            android:launchMode="singleTask"
+            android:taskAffinity="" >
+            <intent-filter>
+                <action android:name="com.blackberry.emailservices.account.security.UPDATE_SECURITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.blackberry.emailservices.account.security.PASSWORD" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blackberry.email.account.activity.setup.MailboxSettings"
+            android:label="@string/mailbox_settings_activity_title" >
+        </activity>
+        <service
+            android:name="com.blackberry.email.account.service.AccountService"
+            android:enabled="true"
+            android:permission="com.blackberry.email.permission.ACCESS_EMAILSERVICES" >
+            <intent-filter>
+                <action android:name="com.blackberry.email.ACCOUNT_INTENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.blackberry.email.service.AttachmentDownloadService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.blackberry.email.account.service.PolicyService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.blackberry.email.permission.ACCESS_EMAILSERVICES" >
+            <intent-filter>
+                <action android:name="com.blackberry.emailservices.POLICY_INTENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.blackberry.email.service.EmailMessagingService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <provider
+            android:name="com.blackberry.email.provider.AttachmentProvider"
+            android:authorities="@string/authority_email_attachment_provider"
+            android:exported="true"
+            android:grantUriPermissions="true" />
+
+        <!-- Support for DeviceAdmin / DevicePolicyManager.  See SecurityPolicy class for impl. -->
+        <receiver
+            android:name="com.blackberry.email.account.SecurityPolicy$PolicyAdmin"
+            android:description="@string/device_admin_description"
+            android:label="@string/device_admin_label"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.blackberry.email.service.AttachmentDownloadService$Watchdog"
+            android:enabled="true" />
+    </application>
+
+</manifest>

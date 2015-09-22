@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.blackberry.widgets.tagview.contact.ContactExpandedArea
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"/>
+<!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/contact_expanded_area.xml --><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/layout/contact_expanded_area.xml -->

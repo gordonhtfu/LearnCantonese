@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger
+    version="2"
+    xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" >
+
+    <dataSet config="main" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res" >
+            <file
+                name="default_image"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable/default_image.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="actionbar_translucent"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-hdpi/actionbar_translucent.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_refresh_holo_dark"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-hdpi/ic_menu_refresh_holo_dark.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="actionbar_translucent"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-mdpi/actionbar_translucent.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_refresh_holo_dark"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-mdpi/ic_menu_refresh_holo_dark.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="actionbar_translucent"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-xhdpi/actionbar_translucent.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_refresh_holo_dark"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-xhdpi/ic_menu_refresh_holo_dark.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="actionbar_translucent"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-xxhdpi/actionbar_translucent.9.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_refresh_holo_dark"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/drawable-xxhdpi/ic_menu_refresh_holo_dark.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="photo_activity_view"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/layout/photo_activity_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="photo_fragment_view"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/layout/photo_fragment_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="photo_retry_button"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/layout/photo_retry_button.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="photo_retry_button"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/layout-v11/photo_retry_button.xml"
+                qualifiers="v11"
+                type="layout" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="photo_crop_highlight_color" >#fff
+                </color>
+                <color name="solid_black" >#ff000000
+                </color>
+                <color name="photo_crop_dim_color" >#cc000000
+                </color>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values/config.xml"
+                qualifiers="" >
+                <bool name="force_thumbnail_no_scaling" >
+true
+                </bool>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values/constants.xml"
+                qualifiers="" >
+                <integer name="reenter_fullscreen_delay_time_in_millis" >
+5000
+                </integer>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values/dimen.xml"
+                qualifiers="" >
+                <dimen name="photo_crop_width" >280dip
+                </dimen>
+                <dimen name="retry_button_size" >48dip
+                </dimen>
+                <dimen name="photo_preview_size" >200dip
+                </dimen>
+                <dimen name="photo_crop_stroke_width" >1dip
+                </dimen>
+                <dimen name="photo_page_margin" >32dip
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="retry" >Retry
+                </string>
+                <string name="photo_view_count" ><ns1:g id="current_pos" >
+%d
+                    </ns1:g> of 
+<ns1:g id="count" >
+%d
+                    </ns1:g></string>
+                <string name="failed" >Couldn\'t load image
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values/themes.xml"
+                qualifiers="" >
+
+                <style
+                    name="Holo.ActionBar"
+                    parent="android:Widget.Holo.ActionBar" >
+                    <item name="android:background">
+@drawable/actionbar_translucent
+                    </item>
+                </style>
+
+                <style
+                    name="PhotoViewTheme"
+                    parent="android:Theme.Holo" >
+                    <item name="android:windowNoTitle">
+false
+                    </item>
+                    <item name="android:windowContentOverlay">
+@null
+                    </item>
+                    <item name="android:windowActionBarOverlay">
+true
+                    </item>
+                    <item name="android:windowBackground">
+@color/solid_black
+                    </item>
+                    <item name="android:actionBarStyle">
+@style/Holo.ActionBar
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-af/strings.xml"
+                qualifiers="af" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Herprobeer"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> van 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Kon nie prent laai nie"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-am/strings.xml"
+                qualifiers="am" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"ምስል መጫን አልተቻለም"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"እንደገና ሞክር"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> ከ
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ar/strings.xml"
+                qualifiers="ar" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"إعادة المحاولة"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> من 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"تعذر تحميل الصورة"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-be/strings.xml"
+                qualifiers="be" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Не атрымалася загрузіць выяву"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Паўтарыць спробу"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> з 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-bg/strings.xml"
+                qualifiers="bg" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Изображ. не можа да се зареди"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Нов опит"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> от 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ca/strings.xml"
+                qualifiers="ca" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> de 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"No s\'ha pogut carregar la imatge"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Torna-ho a provar"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-cs/strings.xml"
+                qualifiers="cs" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> z 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Opakovat"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Fotografii nelze načíst"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-da/strings.xml"
+                qualifiers="da" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> af 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Forsøg igen"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Billedet kunne ikke indlæses"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-de/strings.xml"
+                qualifiers="de" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Fehler beim Laden des Bildes"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> von 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Wiederholen"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-el/strings.xml"
+                qualifiers="el" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Επανάληψη"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> από 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Αδύνατη η φόρτωση της εικόνας"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-en-rGB/strings.xml"
+                qualifiers="en-rGB" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> of 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Couldn\'t load image"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Retry"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-en-rIN/strings.xml"
+                qualifiers="en-rIN" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Couldn\'t load image"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> of 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Retry"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-es/strings.xml"
+                qualifiers="es" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Error al cargar la imagen"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Volver a intentar"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> de 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-es-rUS/strings.xml"
+                qualifiers="es-rUS" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> de 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Intentar nuevamente"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"No se pudo cargar la imagen."
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-et/strings.xml"
+                qualifiers="et" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>/
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Proovi uuesti"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Kujutist ei õnnestunud laadida"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-et-rEE/strings.xml"
+                qualifiers="et-rEE" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Proovi uuesti"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>/
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Kujutist ei õnnestunud laadida"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-fa/strings.xml"
+                qualifiers="fa" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"تصویر بارگیری نشد"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"سعی مجدد"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> از 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-fi/strings.xml"
+                qualifiers="fi" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Yritä uudelleen"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>/
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Kuvan lataus epäonnistui"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-fr/strings.xml"
+                qualifiers="fr" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Réessayer"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Impossible de charger l\'image."
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> sur 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-fr-rCA/strings.xml"
+                qualifiers="fr-rCA" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Impossible de charger l\'image."
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> sur 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Réessayer"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-hi/strings.xml"
+                qualifiers="hi" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"पुनः प्रयास करें"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"चित्र लोड नहीं किया जा सका"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g> में से 
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-hr/strings.xml"
+                qualifiers="hr" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Nije moguće učitati sliku"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> od 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Pokušaj ponovo"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-hu/strings.xml"
+                qualifiers="hu" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"A kép betöltése sikertelen."
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>/
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Újra"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-hy-rAM/strings.xml"
+                qualifiers="hy-rAM" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>-ից 
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>-ը"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Չհաջողվեց բեռնել պատկերը"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Կրկին փորձել"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-in/strings.xml"
+                qualifiers="in" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Tidak dapat memuat gambar"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Coba lagi"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> dari 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-it/strings.xml"
+                qualifiers="it" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Riprova"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Impossibile caricare immagine"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> di 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-iw/strings.xml"
+                qualifiers="iw" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"נסה שנית"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"לא ניתן היה לטעון את התמונה"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> מתוך 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ja/strings.xml"
+                qualifiers="ja" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"再試行"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>/
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"画像を読み込めませんでした"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ka-rGE/strings.xml"
+                qualifiers="ka-rGE" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>-ის 
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"სურათი ვერ ჩაიტვირთა"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"გამეორება"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-km-rKH/strings.xml"
+                qualifiers="km-rKH" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"មិន​អាច​ផ្ទុក​រូបភាព"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> នៃ 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"ព្យាយាម​ម្ដង​ទៀត"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ko/strings.xml"
+                qualifiers="ko" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"이미지를 로드할 수 없음"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"다시 시도"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>/
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-lo-rLA/strings.xml"
+                qualifiers="lo-rLA" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> ຈາກທັງໝົດ 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"ລອງໃໝ່"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"ບໍ່ສາມາດໂຫຼດຮູບໄດ້"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-lt/strings.xml"
+                qualifiers="lt" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Nepavyko įkelti vaizdo"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> iš 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Bandyti dar kartą"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-lv/strings.xml"
+                qualifiers="lv" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Mēģināt vēlreiz"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Nevarēja ielādēt attēlu."
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>. no 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-mn-rMN/strings.xml"
+                qualifiers="mn-rMN" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>-н 
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Зургийг ачааллаж чадсангүй"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Дахих"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ms/strings.xml"
+                qualifiers="ms" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> daripada 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Tidak dapat memuatkan imej"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Cuba semula"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ms-rMY/strings.xml"
+                qualifiers="ms-rMY" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Cuba semula"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> daripada 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Tidak dapat memuatkan imej"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-nb/strings.xml"
+                qualifiers="nb" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Prøv på nytt"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> av 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Kan ikke laste inn bildet"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-nl/strings.xml"
+                qualifiers="nl" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Opnieuw proberen"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> van 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Kan afbeelding niet laden"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-pl/strings.xml"
+                qualifiers="pl" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Spróbuj ponownie"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Nie można wczytać obrazu"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> z 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-pt/strings.xml"
+                qualifiers="pt" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Tentar novamente"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Impossível carregar a imagem"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> de 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-pt-rPT/strings.xml"
+                qualifiers="pt-rPT" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> de 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Não foi poss. carregar imagem"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Tentar novamente"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ro/strings.xml"
+                qualifiers="ro" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Reîncercaţi"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Imaginea nu s-a putut încărca"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> din 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-ru/strings.xml"
+                qualifiers="ru" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Не удалось загрузить фото"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Повторить"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> из 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-sk/strings.xml"
+                qualifiers="sk" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Skúsiť znovu"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> z 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Obrázok sa nepodarilo načítať"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-sl/strings.xml"
+                qualifiers="sl" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Slike ni bilo mogoče naložiti"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> od 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Znova"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-sr/strings.xml"
+                qualifiers="sr" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> од 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Покушај поново"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Није могуће учитати слику"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-sv/strings.xml"
+                qualifiers="sv" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Bilden gick inte att läsa in"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Försök igen"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> av 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-sw/strings.xml"
+                qualifiers="sw" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Haikuweza kupakia picha"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> ya 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Jaribu tena"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-th/strings.xml"
+                qualifiers="th" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"ลองอีกครั้ง"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> จาก 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"ไม่สามารถโหลดภาพ"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-tl/strings.xml"
+                qualifiers="tl" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Hindi ma-load ang larawan"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Subukang muli"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> ng 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-tr/strings.xml"
+                qualifiers="tr" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Yeniden dene"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Resim yüklenemedi"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> / 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-uk/strings.xml"
+                qualifiers="uk" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Повторити"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Зображення не завантажено"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> з 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-vi/strings.xml"
+                qualifiers="vi" >
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Thử lại"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> trong số 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Không thể tải ảnh"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-zh-rCN/strings.xml"
+                qualifiers="zh-rCN" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"无法加载图片"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"重试"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"第 
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> 张，共 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g> 张"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-zh-rHK/strings.xml"
+                qualifiers="zh-rHK" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"第 
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> 張 (共 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g> 張)"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"無法載入相片"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"重試"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-zh-rTW/strings.xml"
+                qualifiers="zh-rTW" >
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"第 
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> 張 (共 
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g> 張)"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"重試"
+                </string>
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"無法載入圖片"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-zu/strings.xml"
+                qualifiers="zu" >
+                <string
+                    name="failed"
+                    msgid="1458877219699376279" >"Ayikwazanga ukulayisha isithombe"
+                </string>
+                <string
+                    name="retry"
+                    msgid="3319517143224679074" >"Zama futhi"
+                </string>
+                <string
+                    name="photo_view_count"
+                    msgid="3466690572899800275" >"
+<ns1:g id="CURRENT_POS" >
+%d
+                    </ns1:g> kwe-
+<ns1:g id="COUNT" >
+%d
+                    </ns1:g>"
+                </string>
+            </file>
+        </source>
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/build/generated/res/rs/release" />
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/release/res" />
+    </dataSet>
+
+</merger>

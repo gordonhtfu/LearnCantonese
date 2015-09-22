@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"/>
+<!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/completion_list_item.xml -->

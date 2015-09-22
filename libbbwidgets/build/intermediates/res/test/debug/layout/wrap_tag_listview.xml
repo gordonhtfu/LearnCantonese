@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tags="http://schemas.android.com/apk/res-auto"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <com.blackberry.widgets.tagview.FlowLayout
+        android:id="@+id/wtlFlowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tags:verticalSpacing="2dp"
+        tags:horizontalSpacing="2dp"/>
+
+    <RelativeLayout
+        android:id="@+id/wtlExpandedAreaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</merge><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/wrap_tag_listview.xml --><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/layout/wrap_tag_listview.xml -->

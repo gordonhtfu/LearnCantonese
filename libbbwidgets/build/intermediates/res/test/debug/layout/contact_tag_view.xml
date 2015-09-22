@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tags="http://schemas.android.com/apk/res-auto"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.blackberry.widgets.tagview.TagTextView
+            android:id="@+id/btvTagTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/ctvAddContactButton"/>
+
+        <ImageButton
+            android:id="@+id/ctvAddContactButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/contact_picker"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <com.blackberry.widgets.tagview.RelatedTagListView
+        android:id="@id/btvRelatedTagListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tags:horizontalSpacing="2dp"/>
+    
+</merge><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/contact_tag_view.xml --><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/layout/contact_tag_view.xml -->

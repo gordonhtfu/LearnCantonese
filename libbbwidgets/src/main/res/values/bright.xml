@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bright_highlight">#F0F0F0</color>
+    <color name="bright_base">#E6E6E6</color>
+    <color name="bright_gradient_top">#F0F0F0</color>
+    <color name="bright_gradient_bottom">#E6E6E6</color>
+    <color name="bright_overlay">#26000000</color>
+    <color name="bright_text_primary">#323232</color>
+    <color name="bright_text_secondary">#646464</color>
+    <color name="bright_text_tertiary">#969696</color>
+    <color name="bright_text_selected">#F0F0F0</color>
+    <color name="bright_text_error">#d60000</color>
+    <color name="bright_stroke">#34000000</color>
+</resources>

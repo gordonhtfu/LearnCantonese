@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emailtags="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/inner_header_expanded"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/expanded_header_background_color"
+    style="@style/ConversationViewSidePaddingStyle">
+
+    <TextView
+        android:id="@+id/account_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MessageHeaderSubtitleStyle"/>
+
+    <com.blackberry.widgets.tagview.contact.email.EmailTags
+        android:id="@+id/viewer_to_tagview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        emailtags:auto_generate_tag_flags="auto_tag_none"
+        emailtags:tags_title="@string/to"
+        emailtags:read_only="true"
+        emailtags:max_tags_when_collapsed="2" />
+
+    <com.blackberry.widgets.tagview.contact.email.EmailTags
+        android:id="@+id/viewer_cc_tagview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        emailtags:auto_generate_tag_flags="auto_tag_none"
+        emailtags:tags_title="@string/cc" 
+        emailtags:read_only="true"
+        emailtags:max_tags_when_collapsed="2" />
+
+    <com.blackberry.widgets.tagview.contact.email.EmailTags
+        android:id="@+id/viewer_bcc_tagview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        emailtags:auto_generate_tag_flags="auto_tag_none"
+        emailtags:tags_title="@string/bcc"
+        emailtags:read_only="true"
+        emailtags:max_tags_when_collapsed="2" />
+
+</LinearLayout>

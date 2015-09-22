@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.-->
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ComposeTheme"  >
+
+    <include layout="@layout/wait_fragment" />
+
+    <LinearLayout
+        android:id="@+id/composeForm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/compose_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true"
+                android:orientation="vertical"
+                android:paddingLeft="0dip"
+                android:paddingRight="0dip" >
+
+                <!-- Account spinner -->
+
+                <include layout="@layout/compose_account_selector" />
+
+                <fragment
+                    android:id="@+id/recipients_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    class="com.blackberry.email.ui.compose.views.RecipientsFragment" />
+
+                <include layout="@layout/compose_subject" />
+                    
+                <!-- Attachments -->
+                <com.blackberry.email.ui.compose.views.AttachmentsView
+                    android:id="@+id/attachments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:paddingBottom="0dip"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:paddingTop="8dip"
+                    android:visibility="gone" >
+
+                    <include layout="@layout/compose_attachments" />
+                </com.blackberry.email.ui.compose.views.AttachmentsView>
+
+                <!-- Body -->
+                <com.blackberry.common.ui.editablewebview.EditableWebView
+                    android:id="@+id/composition_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    custom:securityScheme="composescreen" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

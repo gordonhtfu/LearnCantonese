@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-hdpi-v4/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-xhdpi-v4/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values/values.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <string name="app_name" >Blackberry PIM Client Lib
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values-v11/values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values-v14/values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libvendor/unspecified/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libvendor/unspecified/res/drawable-hdpi-v4/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libvendor/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libvendor/unspecified/res/drawable-xhdpi-v4/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libvendor/unspecified/res/values/values.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <string name="app_name" >bbvendor
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libvendor/unspecified/res/values-v11/values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libvendor/unspecified/res/values-v14/values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libcommon/unspecified/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libcommon/unspecified/res/drawable-hdpi-v4/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libcommon/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libcommon/unspecified/res/drawable-xhdpi-v4/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libcommon/unspecified/res/values/values.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <string name="app_name" >bbcommon
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libcommon/unspecified/res/values-v11/values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/intermediates/exploded-aar/CantoneseChallenge/libcommon/unspecified/res/values-v14/values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res" >
+            <file
+                name="collapsed"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/collapsed.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="divider"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/divider.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="expanded"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/expanded.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_selector"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/list_item_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_background"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/list_selector_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_background_disabled"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/list_selector_background_disabled.9.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_background_focus"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/list_selector_background_focus.9.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_background_longpress"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/list_selector_background_longpress.9.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_background_pressed"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/list_selector_background_pressed.9.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_selector_background_transition"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/list_selector_background_transition.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="squircle"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/squircle.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_contact_picture_holo_light"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-hdpi/ic_contact_picture_holo_light.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-hdpi/ic_drawer.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_email"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-hdpi/ic_email.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture_holo_light"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-mdpi/ic_contact_picture_holo_light.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-mdpi/ic_drawer.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_email"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-mdpi/ic_email.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture_holo_light"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xhdpi/ic_contact_picture_holo_light.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_delete"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xhdpi/ic_delete.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xhdpi/ic_drawer.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_email"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xhdpi/ic_email.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="drawer_shadow"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xxhdpi/drawer_shadow.9.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture_holo_light"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xxhdpi/ic_contact_picture_holo_light.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xxhdpi/ic_drawer.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_email"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable-xxhdpi/ic_email.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="child_list_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/child_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drawer_activity"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/drawer_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="expandable_list_item_object"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/expandable_list_item_object.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_grid"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/fragment_grid.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_list"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/fragment_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_sticky_list"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/fragment_sticky_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_tree"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/fragment_tree.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_base"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/list_item_base.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_section"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/list_item_section.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="standard_list_item_object"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/standard_list_item_object.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="tree_list_item_wrapper"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/tree_list_item_wrapper.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="two_icon_list_item_object"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/two_icon_list_item_object.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="actions_context_base"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/menu/actions_context_base.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="TreeViewList" >
+                    <attr
+                        name="collapsible"
+                        format="boolean" />
+                    <attr
+                        name="src_expanded"
+                        format="reference|color" />
+                    <attr
+                        name="src_collapsed"
+                        format="reference|color" />
+                    <attr
+                        name="indent_width"
+                        format="dimension" />
+                    <attr name="indicator_gravity" >
+
+                        <!-- Push object to the top of its container, not changing its size. -->
+                        <flag
+                            name="top"
+                            value="0x30" />
+                        <!-- Push object to the bottom of its container, not changing its size. -->
+                        <flag
+                            name="bottom"
+                            value="0x50" />
+                        <!-- Push object to the left of its container, not changing its size. -->
+                        <flag
+                            name="left"
+                            value="0x03" />
+                        <!-- Push object to the right of its container, not changing its size. -->
+                        <flag
+                            name="right"
+                            value="0x05" />
+                        <!-- Place object in the vertical center of its container, not changing its size. -->
+                        <flag
+                            name="center_vertical"
+                            value="0x10" />
+                        <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+                        <flag
+                            name="fill_vertical"
+                            value="0x70" />
+                        <!-- Place object in the horizontal center of its container, not changing its size. -->
+                        <flag
+                            name="center_horizontal"
+                            value="0x01" />
+                        <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+                        <flag
+                            name="fill_horizontal"
+                            value="0x07" />
+                        <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+                        <flag
+                            name="center"
+                            value="0x11" />
+                        <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+                        <flag
+                            name="fill"
+                            value="0x77" />
+                        <!--
+                 Additional option that can be set to have the top and/or bottom edges of the child clipped to its container's bounds.
+				The clip will be based on the vertical gravity: a top gravity will clip the bottom edge, a bottom gravity will clip the top
+				edge, and neither will clip both edges.
+                        -->
+                        <flag
+                            name="clip_vertical"
+                            value="0x80" />
+                        <!--
+                 Additional option that can be set to have the left and/or right edges of the child clipped to its container's bounds.
+				The clip will be based on the horizontal gravity: a left gravity will clip the right edge, a right gravity will clip the
+				left edge, and neither will clip both edges.
+                        -->
+                        <flag
+                            name="clip_horizontal"
+                            value="0x08" />
+                    </attr>
+                    <attr
+                        name="indicator_background"
+                        format="reference|color" />
+                    <attr
+                        name="row_background"
+                        format="reference|color" />
+                </declare-styleable>
+                <declare-styleable name="EditableWebViewAttrs" >
+                    <attr
+                        name="securityScheme"
+                        format="string" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="tertiary_text" >#828282
+                </color>
+                <color name="default_bg" >#ffffff
+                </color>
+                <color name="selected_state" >#d5eaf0
+                </color>
+                <color name="secondary_text" >#646464
+                </color>
+                <color name="pressed_state" >#e5e5e5
+                </color>
+                <color name="divider_color" >#f0f0f0
+                </color>
+                <color name="primary_text" >#323232
+                </color>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/dimen.xml"
+                qualifiers="" >
+                <dimen name="secondary_text_size" >14sp
+                </dimen>
+                <dimen name="drawer_list_item_height" >48dp
+                </dimen>
+                <dimen name="content_start_margin" >72dp
+                </dimen>
+                <dimen name="navigation_drawer_width" >288dp
+                </dimen>
+                <dimen name="counter_text_size" >10sp
+                </dimen>
+                <dimen name="primary_text_size" >16sp
+                </dimen>
+                <dimen name="edge_margin" >16dp
+                </dimen>
+                <dimen name="date_text_size" >12sp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/preference.xml"
+                qualifiers="" >
+                <string
+                    name="pref_key_display_order"
+                    translatable="false" >pk_display_order
+                </string>
+                <string
+                    name="pref_display_order_sn"
+                    translatable="false" >sn
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="navigation_drawer_close" >Close navigation drawer
+                </string>
+                <string name="app_name" >lib.common.ui
+                </string>
+                <string name="action_edit" >Edit
+                </string>
+                <string name="action_delete" >Delete
+                </string>
+                <string name="all_folders" >All Folders
+                </string>
+                <string name="action_create" >Create
+                </string>
+                <string name="navigation_drawer_open" >Open navigation drawer
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="TreeViewListStyle"
+                    parent="@android:attr/listViewStyle" >
+                    <item name="android:background">
+@android:color/white
+                    </item>
+                    <item name="android:divider">
+@drawable/divider
+                    </item>
+                </style>
+
+                <style name="PrimaryListItemImage" >
+                    <item name="android:layout_width">
+38dp
+                    </item>
+                    <item name="android:layout_height">
+38dp
+                    </item>
+                    <item name="android:layout_marginLeft">
+@dimen/edge_margin
+                    </item>
+                </style>
+
+                <style name="BaseTextStyle" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="SecondaryTextStyle"
+                    parent="BaseTextStyle" >
+                    <item name="android:ellipsize">
+end
+                    </item>
+                    <item name="android:maxLines">
+1
+                    </item>
+                    <item name="android:textColor">
+@color/secondary_text
+                    </item>
+                    <item name="android:textSize">
+@dimen/secondary_text_size
+                    </item>
+                </style>
+
+                <style
+                    name="PrimaryTextStyle"
+                    parent="BaseTextStyle" >
+                    <item name="android:ellipsize">
+end
+                    </item>
+                    <item name="android:maxLines">
+1
+                    </item>
+                    <item name="android:textColor">
+@color/primary_text
+                    </item>
+                    <item name="android:textSize">
+@dimen/primary_text_size
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                </style>
+
+                <style
+                    name="CounterTextStyle"
+                    parent="BaseTextStyle" >
+                    <item name="android:textColor">
+@android:color/white
+                    </item>
+                    <item name="android:textSize">
+@dimen/counter_text_size
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/generated/res/rs/release" />
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/release/res" />
+    </dataSet>
+
+</merger>

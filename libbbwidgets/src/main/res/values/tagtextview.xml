@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <dimen name="tagtextview_completions_left_offset">20dp</dimen>
+    <dimen name="tagtextview_more_text_size">18sp</dimen>
+    <dimen name="tagtextview_more_padding_left">8dp</dimen>
+    <dimen name="tagtextview_more_padding_right">8dp</dimen>
+
+    <color name="tagtextview_more_text_color">#aaaaaa</color>
+
+    <!-- taken directly from the Android Chips control -->
+    <string name="tagtextview_more_text">\u002B<xliff:g id="count">%1$s</xliff:g></string>
+
+    <dimen name="tagtextview_compound_padding">2dp</dimen>
+    
+</resources>

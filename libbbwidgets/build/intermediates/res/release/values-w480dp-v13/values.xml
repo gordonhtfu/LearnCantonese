@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values-w480dp/frequentgroup.xml -->
+    <eat-comment />
+
+    <dimen name="fg_max_large_actionbadge_size">@dimen/fg_max_medium_actionbadge_size</dimen>
+
+    <item name="frequent_group_4" type="layout">@layout/frequent_group_wide_4_to_6</item>
+    <item name="frequent_group_5" type="layout">@layout/frequent_group_wide_4_to_6</item>
+    <item name="frequent_group_6" type="layout">@layout/frequent_group_wide_4_to_6</item>
+
+</resources>

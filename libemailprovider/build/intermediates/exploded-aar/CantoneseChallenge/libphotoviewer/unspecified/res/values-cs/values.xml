@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libphotoviewer/src/main/res/values-cs/strings.xml -->
+    <eat-comment />
+
+    <string name="failed" msgid="1458877219699376279">"Fotografii nelze načíst"</string>
+    <string name="photo_view_count" msgid="3466690572899800275">"<ns1:g id="CURRENT_POS">%d</ns1:g> z <ns1:g id="COUNT">%d</ns1:g>"</string>
+    <string name="retry" msgid="3319517143224679074">"Opakovat"</string>
+
+</resources>

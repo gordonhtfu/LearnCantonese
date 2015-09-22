@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.blackberry.common.ui.swipemenulistview.SwipeMenuListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_entities"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:headerDividersEnabled="false"
+    android:footerDividersEnabled="false"
+    android:choiceMode="singleChoice"
+    android:divider="@color/divider_color"
+    android:dividerHeight="0.6dp"
+    android:background="@android:color/white"
+    />
+<!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/fragment_sticky_list.xml -->

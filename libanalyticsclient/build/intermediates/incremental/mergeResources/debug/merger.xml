@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-hdpi-v4/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-xhdpi-v4/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values/values.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <string name="app_name" >Blackberry PIM Client Lib
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values-v11/values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values-v14/values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res" >
+            <file
+                name="prioritization_rule_activity"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/layout/prioritization_rule_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="prioritization_rules"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/layout/prioritization_rules.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="prioritization_rules_buttons"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/layout/prioritization_rules_buttons.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="user_created_rule_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/layout/user_created_rule_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu_priortization_rule"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/menu/menu_priortization_rule.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="rule_divider_color" >#CCCCCC
+                </color>
+                <color name="rule_setup_info_text_color" >#000000
+                </color>
+                <color name="rule_setup_headline_color" >#5E802B
+                </color>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/values/dimen.xml"
+                qualifiers="" >
+                <dimen name="rules_buttons_padding_bottom" >48dip
+                </dimen>
+                <dimen name="rules_buttons_padding_top" >48dip
+                </dimen>
+                <dimen name="rule_margin_left" >10dip
+                </dimen>
+                <dimen name="rule_padding_top" >16dip
+                </dimen>
+                <dimen name="create_rule_separator_margin" >16dip
+                </dimen>
+                <dimen name="rule_padding_right" >16dip
+                </dimen>
+                <dimen name="rule_padding_left" >16dip
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="confirm_rule_deletion" >You are about to delete this rule. Do you wish to continue?
+                </string>
+                <string name="sent_to_me_label" >Sent directly to me
+                </string>
+                <string name="menu_delete" >Delete
+                </string>
+                <string name="rule_sender_hint" >sender\'s email address
+                </string>
+                <string name="rule_disabled" >Disabled
+                </string>
+                <string name="cancel_action" >Cancel
+                </string>
+                <string name="prioritization_rules_empty_list" >No prioritization rules.
+                </string>
+                <string name="rule_account_selector_label_text" >Email Accounts
+                </string>
+                <string name="existing_rule_error" >A rule with this name exists. Would you like to cancel or edit the existing rule?
+                </string>
+                <string name="create_rule_action" >Create rule
+                </string>
+                <string
+                    name="authority_analytics_provider"
+                    translatable="false" >com.blackberry.lib.analytics.provider
+                </string>
+                <string name="okay_action" >OK
+                </string>
+                <string name="rule_subject_label" >Subject
+                </string>
+                <string name="menu_save" >Save
+                </string>
+                <string name="rule_sender_label" >Sender
+                </string>
+                <string name="prioritization_rules_list" >Prioritization Rules
+                </string>
+                <string name="rule_name_hint" >required
+                </string>
+                <string name="rule_name_label" >Rule Name
+                </string>
+                <string name="notification_title" >Level 1 Notification
+                </string>
+                <string name="rule_account_label_text" >Email Account
+                </string>
+                <string name="done_action" >Done
+                </string>
+                <string name="cc_to_me_label" >CC\'d to me
+                </string>
+                <string name="next_action" >Next
+                </string>
+                <string name="rule_account_selector" >select email account
+                </string>
+                <string name="create_action" >Create new
+                </string>
+                <string name="app_name" >Blackberry Analytics
+                </string>
+                <string name="previous_action" >Previous
+                </string>
+                <string name="rule_enabled" >Enabled
+                </string>
+                <string name="none_label" >neither
+                </string>
+                <string name="rule_subject_hint" >Enter text
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="ruleSetupInfoText" >
+                    <item name="android:textSize">
+18sp
+                    </item>
+                    <item name="android:textColor">
+@color/rule_setup_info_text_color
+                    </item>
+                </style>
+
+                <style
+                    name="TitleTextStyle"
+                    parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title" >
+                    <item name="android:textColor">
+@android:color/white
+                    </item>
+                </style>
+
+                <style name="ruleSettingsButton" >
+                    <item name="android:layout_width">
+160sp
+                    </item>
+                    <item name="android:layout_height">
+40sp
+                    </item>
+                    <item name="android:textColor">
+?android:attr/textColorPrimary
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceSmall
+                    </item>
+                </style>
+
+                <style name="ruleSetupHeadline" >
+                    <item name="android:textSize">
+22sp
+                    </item>
+                    <item name="android:textColor">
+@color/rule_setup_headline_color
+                    </item>
+                </style>
+
+                <style
+                    name="ActionBarStyle"
+                    parent="@android:style/Widget.Holo.Light.ActionBar" >
+                    <item name="android:titleTextStyle">
+@style/TitleTextStyle
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Light" >
+                    <item name="android:actionBarStyle">
+@style/ActionBarStyle
+                    </item>
+                </style>
+
+                <style name="ruleSetupButton" >
+                    <item name="android:layout_width">
+160sp
+                    </item>
+                    <item name="android:layout_height">
+40sp
+                    </item>
+                    <item name="android:textColor">
+?android:attr/textColorPrimary
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceSmall
+                    </item>
+                </style>
+            </file>
+        </source>
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/generated/res/rs/debug" />
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/debug/res" />
+    </dataSet>
+
+</merger>

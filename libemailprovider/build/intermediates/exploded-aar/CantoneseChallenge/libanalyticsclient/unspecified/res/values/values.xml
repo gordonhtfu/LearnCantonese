@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="rule_divider_color">#CCCCCC</color>
+    <color name="rule_setup_headline_color">#5E802B</color>
+    <color name="rule_setup_info_text_color">#000000</color>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/values/dimen.xml -->
+    <eat-comment />
+
+    <dimen name="create_rule_separator_margin">16dip</dimen>
+    <dimen name="rule_margin_left">10dip</dimen>
+    <dimen name="rule_padding_left">16dip</dimen>
+    <dimen name="rule_padding_right">16dip</dimen>
+    <dimen name="rule_padding_top">16dip</dimen>
+    <dimen name="rules_buttons_padding_bottom">48dip</dimen>
+    <dimen name="rules_buttons_padding_top">48dip</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">Blackberry Analytics</string>
+    <string name="authority_analytics_provider" translatable="false">com.blackberry.lib.analytics.provider</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="cc_to_me_label">CC\'d to me</string>
+    <string name="confirm_rule_deletion">You are about to delete this rule. Do you wish to continue?</string>
+    <string name="create_action">Create new</string>
+    <string name="create_rule_action">Create rule</string>
+    <string name="done_action">Done</string>
+    <string name="existing_rule_error">A rule with this name exists. Would you like to cancel or edit the existing rule?</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_save">Save</string>
+    <string name="next_action">Next</string>
+    <string name="none_label">neither</string>
+    <string name="notification_title">Level 1 Notification</string>
+    <string name="okay_action">OK</string>
+    <string name="previous_action">Previous</string>
+    <string name="prioritization_rules_empty_list">No prioritization rules.</string>
+    <string name="prioritization_rules_list">Prioritization Rules</string>
+    <string name="rule_account_label_text">Email Account</string>
+    <string name="rule_account_selector">select email account</string>
+    <string name="rule_account_selector_label_text">Email Accounts</string>
+    <string name="rule_disabled">Disabled</string>
+    <string name="rule_enabled">Enabled</string>
+    <string name="rule_name_hint">required</string>
+    <string name="rule_name_label">Rule Name</string>
+    <string name="rule_sender_hint">sender\'s email address</string>
+    <string name="rule_sender_label">Sender</string>
+    <string name="rule_subject_hint">Enter text</string>
+    <string name="rule_subject_label">Subject</string>
+    <string name="sent_to_me_label">Sent directly to me</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+    </style>
+
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ruleSettingsButton">
+        <item name="android:layout_width">160sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="ruleSetupButton">
+        <item name="android:layout_width">160sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="ruleSetupHeadline">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/rule_setup_headline_color</item>
+    </style>
+
+    <style name="ruleSetupInfoText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/rule_setup_info_text_color</item>
+    </style>
+
+</resources>

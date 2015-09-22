@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MaxLinearLayout">
+        <attr name="android:maxWidth" />
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/edge_margin"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:textSize="@dimen/secondary_text_size"
+    android:background="@android:color/white"
+    android:textColor="@color/secondary_text"
+    android:textStyle="bold" >
+</TextView>
+<!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/list_item_section.xml -->

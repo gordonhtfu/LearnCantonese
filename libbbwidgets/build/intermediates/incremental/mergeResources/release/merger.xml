@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger
+    version="2"
+    xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" >
+
+    <dataSet config="unspecified" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-hdpi-v4/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/drawable-xhdpi-v4/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values/values.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <string name="app_name" >Blackberry PIM Client Lib
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values-v11/values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/res/values-v14/values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res" >
+            <file
+                name="prioritization_rule_activity"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/layout/prioritization_rule_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="prioritization_rules"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/layout/prioritization_rules.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="prioritization_rules_buttons"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/layout/prioritization_rules_buttons.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="user_created_rule_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/layout/user_created_rule_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="menu_priortization_rule"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/menu/menu_priortization_rule.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/values/values.xml"
+                qualifiers="" >
+                <string name="confirm_rule_deletion" >You are about to delete this rule. Do you wish to continue?
+                </string>
+
+                <style
+                    name="TitleTextStyle"
+                    parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title" >
+                    <item name="android:textColor">
+@android:color/white
+                    </item>
+                </style>
+
+                <string name="sent_to_me_label" >Sent directly to me
+                </string>
+
+                <dimen name="rule_padding_top" >16dip
+                </dimen>
+
+                <color name="rule_setup_info_text_color" >#000000
+                </color>
+
+                <string name="menu_delete" >Delete
+                </string>
+
+                <dimen name="rule_padding_left" >16dip
+                </dimen>
+
+                <string name="rule_sender_hint" >sender\'s email address
+                </string>
+                <string name="rule_disabled" >Disabled
+                </string>
+                <string name="cancel_action" >Cancel
+                </string>
+                <string name="prioritization_rules_empty_list" >No prioritization rules.
+                </string>
+
+                <dimen name="rules_buttons_padding_bottom" >48dip
+                </dimen>
+
+                <string name="rule_account_selector_label_text" >Email Accounts
+                </string>
+                <string name="existing_rule_error" >A rule with this name exists. Would you like to cancel or edit the existing rule?
+                </string>
+
+                <style name="ruleSettingsButton" >
+                    <item name="android:layout_width">
+160sp
+                    </item>
+                    <item name="android:layout_height">
+40sp
+                    </item>
+                    <item name="android:textColor">
+?android:attr/textColorPrimary
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceSmall
+                    </item>
+                </style>
+
+                <string
+                    name="authority_analytics_provider"
+                    translatable="false" >com.blackberry.lib.analytics.provider
+                </string>
+                <string name="create_rule_action" >Create rule
+                </string>
+                <string name="okay_action" >OK
+                </string>
+                <string name="rule_subject_label" >Subject
+                </string>
+
+                <color name="rule_setup_headline_color" >#5E802B
+                </color>
+
+                <string name="rule_sender_label" >Sender
+                </string>
+                <string name="menu_save" >Save
+                </string>
+                <string name="prioritization_rules_list" >Prioritization Rules
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Light" >
+                    <item name="android:actionBarStyle">
+@style/ActionBarStyle
+                    </item>
+                </style>
+
+                <string name="rule_name_hint" >required
+                </string>
+                <string name="rule_name_label" >Rule Name
+                </string>
+
+                <style name="ruleSetupHeadline" >
+                    <item name="android:textSize">
+22sp
+                    </item>
+                    <item name="android:textColor">
+@color/rule_setup_headline_color
+                    </item>
+                </style>
+
+                <dimen name="rule_padding_right" >16dip
+                </dimen>
+
+                <string name="notification_title" >Level 1 Notification
+                </string>
+
+                <style name="ruleSetupButton" >
+                    <item name="android:layout_width">
+160sp
+                    </item>
+                    <item name="android:layout_height">
+40sp
+                    </item>
+                    <item name="android:textColor">
+?android:attr/textColorPrimary
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceSmall
+                    </item>
+                </style>
+
+                <string name="rule_account_label_text" >Email Account
+                </string>
+                <string name="done_action" >Done
+                </string>
+
+                <style name="ruleSetupInfoText" >
+                    <item name="android:textSize">
+18sp
+                    </item>
+                    <item name="android:textColor">
+@color/rule_setup_info_text_color
+                    </item>
+                </style>
+
+                <dimen name="rules_buttons_padding_top" >48dip
+                </dimen>
+
+                <color name="rule_divider_color" >#CCCCCC
+                </color>
+
+                <dimen name="rule_margin_left" >10dip
+                </dimen>
+
+                <string name="cc_to_me_label" >CC\'d to me
+                </string>
+                <string name="next_action" >Next
+                </string>
+                <string name="rule_account_selector" >select email account
+                </string>
+                <string name="create_action" >Create new
+                </string>
+
+                <dimen name="create_rule_separator_margin" >16dip
+                </dimen>
+
+                <string name="app_name" >Blackberry Analytics
+                </string>
+                <string name="previous_action" >Previous
+                </string>
+                <string name="rule_enabled" >Enabled
+                </string>
+                <string name="none_label" >neither
+                </string>
+
+                <style
+                    name="ActionBarStyle"
+                    parent="@android:style/Widget.Holo.Light.ActionBar" >
+                    <item name="android:titleTextStyle">
+@style/TitleTextStyle
+                    </item>
+                </style>
+
+                <string name="rule_subject_hint" >Enter text
+                </string>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res" >
+            <file
+                name="tag_text_color"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/color/tag_text_color.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="action_badge_border"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/action_badge_border.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="add_to_contact"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/add_to_contact.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="contact_picker"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/contact_picker.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="email_external_tag_gradient"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/email_external_tag_gradient.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="email_external_tag_selected_gradient"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/email_external_tag_selected_gradient.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="email_tag_background"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/email_tag_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_cancel_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/ic_cancel_24dp.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_font_primary"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/list_item_font_primary.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_font_secondary"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/list_item_font_secondary.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_overlay"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/list_item_overlay.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="more_tag_background"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/more_tag_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="related_tag_background"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/related_tag_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tag_background"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/tag_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tag_bright_delete_button"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/tag_bright_delete_button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tag_bright_gradient"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/tag_bright_gradient.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tag_bright_overlay"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/tag_bright_overlay.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="tag_skyblue_gradient"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/tag_skyblue_gradient.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_cancel_gry_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-hdpi/ic_cancel_gry_24dp.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_wht_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-hdpi/ic_cancel_wht_24dp.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-hdpi/ic_contact_picture.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_gry_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-mdpi/ic_cancel_gry_24dp.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_wht_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-mdpi/ic_cancel_wht_24dp.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-mdpi/ic_contact_picture.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_gry_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xhdpi/ic_cancel_gry_24dp.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_wht_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xhdpi/ic_cancel_wht_24dp.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xhdpi/ic_contact_picture.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_gry_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xxhdpi/ic_cancel_gry_24dp.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_wht_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xxhdpi/ic_cancel_wht_24dp.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_gry_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xxxhdpi/ic_cancel_gry_24dp.png"
+                qualifiers="xxxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_cancel_wht_24dp"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable-xxxhdpi/ic_cancel_wht_24dp.png"
+                qualifiers="xxxhdpi-v4"
+                type="drawable" />
+            <file
+                name="action_badge"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/action_badge.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="base_tag_view"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/base_tag_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="completion_list_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/completion_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="completions_listview"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/completions_listview.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="contact_details_actions"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/contact_details_actions.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="contact_expanded_area"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/contact_expanded_area.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="contact_tag_view"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/contact_tag_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="email_contact_details_area"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/email_contact_details_area.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="email_contact_expanded_area"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/email_contact_expanded_area.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_10"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_10.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_1_to_3"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_1_to_3.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_4_to_5"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_4_to_5.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_6"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_6.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_7"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_7.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_8"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_8.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_9"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_9.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_wide_4_to_6"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_wide_4_to_6.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_xwide_1_to_4"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_xwide_1_to_4.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_xwide_5_to_7"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_xwide_5_to_7.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="frequent_group_xwide_8_to_10"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_xwide_8_to_10.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="intent_list_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/intent_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="related_tag"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/related_tag.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="smart_intent_chooser"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/smart_intent_chooser.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="standard_tag"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/standard_tag.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="tags_activity"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/tags_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="textmessage_contact_details_area"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/textmessage_contact_details_area.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="textmessage_contact_expanded_area"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/textmessage_contact_expanded_area.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wrap_tag_listview"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/wrap_tag_listview.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wrapped_edit_text"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/wrapped_edit_text.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="RelatedTagListView" >
+                    <attr name="horizontalSpacing" />
+                </declare-styleable>
+                <declare-styleable name="StandardTag" >
+                    <attr
+                        name="state_invalid"
+                        format="boolean" />
+                </declare-styleable>
+                <declare-styleable name="ListItem" >
+                    <attr
+                        name="state_soft_focus"
+                        format="boolean" />
+                </declare-styleable>
+
+                <attr
+                    name="read_only"
+                    format="boolean" />
+
+                <declare-styleable name="FlowLayout" >
+                    <attr name="horizontalSpacing" />
+                    <attr
+                        name="verticalSpacing"
+                        format="dimension" />
+                </declare-styleable>
+
+                <attr
+                    name="max_tags_when_collapsed"
+                    format="integer" />
+
+                <declare-styleable name="FlowLayout_LayoutParams" >
+                    <attr
+                        name="layout_fill_remaining_width"
+                        format="boolean" />
+                </declare-styleable>
+                <declare-styleable name="WrapTagListView" >
+                    <attr name="max_tags_when_collapsed" />
+                    <attr name="read_only" />
+                </declare-styleable>
+
+                <attr
+                    name="horizontalSpacing"
+                    format="dimension" />
+
+                <declare-styleable name="EmailTag" >
+                    <attr
+                        name="state_email_external"
+                        format="boolean" />
+                </declare-styleable>
+                <declare-styleable name="BaseTags" >
+                    <attr name="auto_generate_tag_flags" >
+                        <flag
+                            name="auto_tag_none"
+                            value="0x0" />
+                        <flag
+                            name="auto_tag_on_focus_lost"
+                            value="0x1" />
+                    </attr>
+                    <attr name="read_only" />
+                    <attr name="max_tags_when_collapsed" />
+                    <attr
+                        name="use_soft_focus"
+                        format="boolean" />
+                    <attr
+                        name="tags_title"
+                        format="string" />
+                    <attr
+                        name="drag_group"
+                        format="string" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/basetag_dimens.xml"
+                qualifiers="" >
+                <dimen name="basetag_text_padding_left" >8dp
+                </dimen>
+                <dimen name="basetag_height" >32dp
+                </dimen>
+                <dimen name="basetag_text_padding_right" >12dp
+                </dimen>
+                <dimen name="basetag_text_padding_top" >8dp
+                </dimen>
+                <dimen name="basetag_text_size" >14sp
+                </dimen>
+                <dimen name="basetag_spacing" >4dp
+                </dimen>
+                <dimen name="basetag_text_padding_bottom" >8dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/bright.xml"
+                qualifiers="" >
+                <color name="bright_gradient_bottom" >#E6E6E6
+                </color>
+                <color name="bright_gradient_top" >#F0F0F0
+                </color>
+                <color name="bright_text_selected" >#F0F0F0
+                </color>
+                <color name="bright_text_secondary" >#646464
+                </color>
+                <color name="bright_highlight" >#F0F0F0
+                </color>
+                <color name="bright_stroke" >#34000000
+                </color>
+                <color name="bright_overlay" >#26000000
+                </color>
+                <color name="bright_text_primary" >#323232
+                </color>
+                <color name="bright_text_error" >#d60000
+                </color>
+                <color name="bright_text_tertiary" >#969696
+                </color>
+                <color name="bright_base" >#E6E6E6
+                </color>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/contactlistitem_dimens.xml"
+                qualifiers="" >
+                <dimen name="contactlistitem_border_width" >1dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/email_tag.xml"
+                qualifiers="" >
+                <color name="email_external_tag_gradient_top" >#F4CFD8
+                </color>
+                <color name="email_external_tag_selected_gradient_bottom" >#B22D86
+                </color>
+                <color name="email_external_tag_gradient_bottom" >#DBBAC3
+                </color>
+                <color name="email_external_tag_selected_gradient_top" >#CC3399
+                </color>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/frequentgroup.xml"
+                qualifiers="" >
+                <item
+                    name="fgLocation4"
+                    type="id"/>
+                <item
+                    name="fgLocation5"
+                    type="id"/>
+                <item
+                    name="fgLocation2"
+                    type="id"/>
+                <item
+                    name="fgLocation3"
+                    type="id"/>
+                <item
+                    name="fgLocation8"
+                    type="id"/>
+                <item
+                    name="fgLocation9"
+                    type="id"/>
+                <item
+                    name="fgLocation10"
+                    type="id"/>
+                <item
+                    name="fgLocation6"
+                    type="id"/>
+                <item
+                    name="fgLocation7"
+                    type="id"/>
+
+                <dimen name="fg_max_large_actionbadge_size" >240dp
+                </dimen>
+                <dimen name="fg_max_medium_actionbadge_size" >160dp
+                </dimen>
+                <dimen name="fg_actionbadge_halfpadding" >4dp
+                </dimen>
+
+                <item
+                    name="fgLocation1"
+                    type="id"/>
+                <item
+                    name="frequent_group_2"
+                    type="layout">
+@layout/frequent_group_1_to_3
+                </item>
+                <item
+                    name="frequent_group_3"
+                    type="layout">
+@layout/frequent_group_1_to_3
+                </item>
+
+                <dimen name="fg_max_small_actionbadge_size" >120dp
+                </dimen>
+
+                <item
+                    name="frequent_group_1"
+                    type="layout">
+@layout/frequent_group_1_to_3
+                </item>
+                <item
+                    name="frequent_group_4"
+                    type="layout">
+@layout/frequent_group_4_to_5
+                </item>
+                <item
+                    name="frequent_group_5"
+                    type="layout">
+@layout/frequent_group_4_to_5
+                </item>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/maxlinearlayout.xml"
+                qualifiers="" >
+                <declare-styleable name="MaxLinearLayout" >
+                    <attr name="android:maxWidth" />
+                    <attr name="android:maxHeight" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/skyblue.xml"
+                qualifiers="" >
+                <color name="skyblue_gradient_top" >#0092CC
+                </color>
+                <color name="skyblue_gradient_bottom" >#0080B3
+                </color>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/smartintentchooser.xml"
+                qualifiers="" >
+                <string name="text_messages" >Text Messages
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="frequent" >Frequent
+                </string>
+                <string name="app_name" >BlackBerry Widgets Library
+                </string>
+                <string name="accounts" >Accounts
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="title_activity_tags" >TagsActivity
+                </string>
+                <string name="actions" >Actions
+                </string>
+                <string name="actions_tbd" >Actions TBD
+                </string>
+                <string name="letter_x" >x
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/tagtextview.xml"
+                qualifiers="" >
+                <dimen name="tagtextview_more_text_size" >18sp
+                </dimen>
+                <dimen name="tagtextview_completions_left_offset" >20dp
+                </dimen>
+
+                <color name="tagtextview_more_text_color" >#aaaaaa
+                </color>
+
+                <dimen name="tagtextview_more_padding_right" >8dp
+                </dimen>
+
+                <string name="tagtextview_more_text" >\u002B
+<ns1:g id="count" >
+%1$s
+                    </ns1:g></string>
+
+                <dimen name="tagtextview_more_padding_left" >8dp
+                </dimen>
+                <dimen name="tagtextview_compound_padding" >2dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values-w480dp/frequentgroup.xml"
+                qualifiers="w480dp-v13" >
+                <item
+                    name="frequent_group_5"
+                    type="layout">
+@layout/frequent_group_wide_4_to_6
+                </item>
+                <item
+                    name="frequent_group_6"
+                    type="layout">
+@layout/frequent_group_wide_4_to_6
+                </item>
+
+                <dimen name="fg_max_large_actionbadge_size" >@dimen/fg_max_medium_actionbadge_size
+                </dimen>
+
+                <item
+                    name="frequent_group_4"
+                    type="layout">
+@layout/frequent_group_wide_4_to_6
+                </item>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values-w960dp/frequentgroup.xml"
+                qualifiers="w960dp-v13" >
+                <item
+                    name="frequent_group_4"
+                    type="layout">
+@layout/frequent_group_xwide_1_to_4
+                </item>
+                <item
+                    name="frequent_group_5"
+                    type="layout">
+@layout/frequent_group_xwide_5_to_7
+                </item>
+                <item
+                    name="frequent_group_6"
+                    type="layout">
+@layout/frequent_group_xwide_5_to_7
+                </item>
+                <item
+                    name="frequent_group_7"
+                    type="layout">
+@layout/frequent_group_xwide_5_to_7
+                </item>
+                <item
+                    name="frequent_group_1"
+                    type="layout">
+@layout/frequent_group_xwide_1_to_4
+                </item>
+                <item
+                    name="frequent_group_2"
+                    type="layout">
+@layout/frequent_group_xwide_1_to_4
+                </item>
+                <item
+                    name="frequent_group_3"
+                    type="layout">
+@layout/frequent_group_xwide_1_to_4
+                </item>
+                <item
+                    name="frequent_group_9"
+                    type="layout">
+@layout/frequent_group_xwide_8_to_10
+                </item>
+                <item
+                    name="frequent_group_8"
+                    type="layout">
+@layout/frequent_group_xwide_8_to_10
+                </item>
+                <item
+                    name="frequent_group_10"
+                    type="layout">
+@layout/frequent_group_xwide_8_to_10
+                </item>
+            </file>
+        </source>
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/generated/res/rs/release" />
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/release/res" />
+    </dataSet>
+
+</merger>

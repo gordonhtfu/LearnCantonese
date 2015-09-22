@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+   android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+   <item android:drawable="@color/pressed_state" android:state_pressed="true"/>
+   <item android:drawable="@color/selected_state" android:state_selected="true"/>
+   <item android:drawable="@color/selected_state" android:state_activated="true"/>
+
+   <!-- 
+   We need the following for "neutral states", otherwise the list item will have transparent
+   color when the selection is removed.
+    -->
+   <item android:drawable="@android:color/white" android:state_pressed="false"/>
+   <item android:drawable="@android:color/white" android:state_selected="false"/>
+   <item android:drawable="@android:color/white" android:state_activated="false"/>
+   
+</selector><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/drawable/list_item_selector.xml -->

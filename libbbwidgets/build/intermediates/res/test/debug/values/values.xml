@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="max_tags_when_collapsed" format="integer" />
+    <attr name="read_only" format="boolean" />
+
+    <color name="bright_base">#E6E6E6</color>
+    <color name="bright_gradient_bottom">#E6E6E6</color>
+    <color name="bright_gradient_top">#F0F0F0</color>
+    <color name="bright_highlight">#F0F0F0</color>
+    <color name="bright_overlay">#26000000</color>
+    <color name="bright_stroke">#34000000</color>
+    <color name="bright_text_error">#d60000</color>
+    <color name="bright_text_primary">#323232</color>
+    <color name="bright_text_secondary">#646464</color>
+    <color name="bright_text_selected">#F0F0F0</color>
+    <color name="bright_text_tertiary">#969696</color>
+    <color name="email_external_tag_gradient_bottom">#DBBAC3</color>
+    <color name="email_external_tag_gradient_top">#F4CFD8</color>
+    <color name="email_external_tag_selected_gradient_bottom">#B22D86</color>
+    <color name="email_external_tag_selected_gradient_top">#CC3399</color>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="rule_divider_color">#CCCCCC</color>
+    <color name="rule_setup_headline_color">#5E802B</color>
+    <color name="rule_setup_info_text_color">#000000</color>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <color name="skyblue_gradient_bottom">#0080B3</color>
+    <color name="skyblue_gradient_top">#0092CC</color>
+    <color name="tagtextview_more_text_color">#aaaaaa</color>
+
+    <declare-styleable name="BaseTags">
+        <attr name="auto_generate_tag_flags">
+            <flag name="auto_tag_none" value="0x0" />
+            <flag name="auto_tag_on_focus_lost" value="0x1" />
+        </attr>
+        <attr name="read_only" />
+        <attr name="max_tags_when_collapsed" />
+        <attr name="use_soft_focus" format="boolean" />
+        <attr name="tags_title" format="string" />
+        <attr name="drag_group" format="string" />
+    </declare-styleable>
+    <declare-styleable name="EmailTag">
+        <attr name="state_email_external" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" />
+        <attr name="verticalSpacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_fill_remaining_width" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ListItem">
+        <attr name="state_soft_focus" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="MaxLinearLayout">
+        <attr name="android:maxWidth" />
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+    <declare-styleable name="RelatedTagListView">
+        <attr name="horizontalSpacing" />
+    </declare-styleable>
+    <declare-styleable name="StandardTag">
+        <attr name="state_invalid" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="WrapTagListView">
+        <attr name="max_tags_when_collapsed" />
+        <attr name="read_only" />
+    </declare-styleable>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="basetag_height">32dp</dimen>
+    <dimen name="basetag_spacing">4dp</dimen>
+    <dimen name="basetag_text_padding_bottom">8dp</dimen>
+    <dimen name="basetag_text_padding_left">8dp</dimen>
+    <dimen name="basetag_text_padding_right">12dp</dimen>
+    <dimen name="basetag_text_padding_top">8dp</dimen>
+    <dimen name="basetag_text_size">14sp</dimen>
+    <dimen name="contactlistitem_border_width">1dp</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="create_rule_separator_margin">16dip</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="fg_actionbadge_halfpadding">4dp</dimen>
+    <dimen name="fg_max_large_actionbadge_size">240dp</dimen>
+    <dimen name="fg_max_medium_actionbadge_size">160dp</dimen>
+    <dimen name="fg_max_small_actionbadge_size">120dp</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="rule_margin_left">10dip</dimen>
+    <dimen name="rule_padding_left">16dip</dimen>
+    <dimen name="rule_padding_right">16dip</dimen>
+    <dimen name="rule_padding_top">16dip</dimen>
+    <dimen name="rules_buttons_padding_bottom">48dip</dimen>
+    <dimen name="rules_buttons_padding_top">48dip</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="tagtextview_completions_left_offset">20dp</dimen>
+    <dimen name="tagtextview_compound_padding">2dp</dimen>
+    <dimen name="tagtextview_more_padding_left">8dp</dimen>
+    <dimen name="tagtextview_more_padding_right">8dp</dimen>
+    <dimen name="tagtextview_more_text_size">18sp</dimen>
+
+    <item name="fgLocation1" type="id"/>
+    <item name="fgLocation10" type="id"/>
+    <item name="fgLocation2" type="id"/>
+    <item name="fgLocation3" type="id"/>
+    <item name="fgLocation4" type="id"/>
+    <item name="fgLocation5" type="id"/>
+    <item name="fgLocation6" type="id"/>
+    <item name="fgLocation7" type="id"/>
+    <item name="fgLocation8" type="id"/>
+    <item name="fgLocation9" type="id"/>
+    <item name="frequent_group_1" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_2" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_3" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_4" type="layout">@layout/frequent_group_4_to_5</item>
+    <item name="frequent_group_5" type="layout">@layout/frequent_group_4_to_5</item>
+
+    <string name="accounts">Accounts</string>
+    <string name="action_settings">Settings</string>
+    <string name="actions">Actions</string>
+    <string name="actions_tbd">Actions TBD</string>
+    <string name="app_name">BlackBerry Widgets Library</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="authority_analytics_provider" translatable="false">com.blackberry.lib.analytics.provider</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="cc_to_me_label">CC\'d to me</string>
+    <string name="confirm_rule_deletion">You are about to delete this rule. Do you wish to continue?</string>
+    <string name="create_action">Create new</string>
+    <string name="create_rule_action">Create rule</string>
+    <string name="done_action">Done</string>
+    <string name="existing_rule_error">A rule with this name exists. Would you like to cancel or edit the existing rule?</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="frequent">Frequent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="letter_x">x</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="menu_delete">Delete</string>
+    <string name="menu_save">Save</string>
+    <string name="next_action">Next</string>
+    <string name="none_label">neither</string>
+    <string name="notification_title">Level 1 Notification</string>
+    <string name="okay_action">OK</string>
+    <string name="previous_action">Previous</string>
+    <string name="prioritization_rules_empty_list">No prioritization rules.</string>
+    <string name="prioritization_rules_list">Prioritization Rules</string>
+    <string name="rule_account_label_text">Email Account</string>
+    <string name="rule_account_selector">select email account</string>
+    <string name="rule_account_selector_label_text">Email Accounts</string>
+    <string name="rule_disabled">Disabled</string>
+    <string name="rule_enabled">Enabled</string>
+    <string name="rule_name_hint">required</string>
+    <string name="rule_name_label">Rule Name</string>
+    <string name="rule_sender_hint">sender\'s email address</string>
+    <string name="rule_sender_label">Sender</string>
+    <string name="rule_subject_hint">Enter text</string>
+    <string name="rule_subject_label">Subject</string>
+    <string name="sent_to_me_label">Sent directly to me</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="tagtextview_more_text">\u002B<ns1:g id="count">%1$s</ns1:g></string>
+    <string name="text_messages">Text Messages</string>
+    <string name="title_activity_tags">TagsActivity</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+    </style>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/exploded-aar/CantoneseChallenge/libanalyticsclient/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ruleSettingsButton">
+        <item name="android:layout_width">160sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="ruleSetupButton">
+        <item name="android:layout_width">160sp</item>
+        <item name="android:layout_height">40sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="ruleSetupHeadline">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/rule_setup_headline_color</item>
+    </style>
+
+    <style name="ruleSetupInfoText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/rule_setup_info_text_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="basetag_text_padding_left">8dp</dimen>
+    <dimen name="basetag_text_padding_right">12dp</dimen>
+    <dimen name="basetag_text_padding_top">8dp</dimen>
+    <dimen name="basetag_text_padding_bottom">8dp</dimen>
+    <dimen name="basetag_text_size">14sp</dimen>
+    <dimen name="basetag_height">32dp</dimen>
+	<dimen name="basetag_spacing">4dp</dimen>
+</resources>

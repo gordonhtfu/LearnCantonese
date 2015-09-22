@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:angle="90"
+        android:endColor="@color/email_external_tag_gradient_top"
+        android:startColor="@color/email_external_tag_gradient_bottom" />
+
+    <corners android:radius="3dp" />
+
+</shape><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/drawable/email_external_tag_gradient.xml --><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/drawable/email_external_tag_gradient.xml -->

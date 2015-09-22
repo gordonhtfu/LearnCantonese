@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libnotes/src/main/res" >
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libnotes/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >lib.notes
+                </string>
+            </file>
+        </source>
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libnotes/build/generated/res/rs/release" />
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libnotes/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libnotes/src/release/res" />
+    </dataSet>
+
+</merger>

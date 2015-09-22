@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="max_tags_when_collapsed" format="integer"/>
+    <attr name="read_only" format="boolean"/>
+    <attr name="horizontalSpacing" format="dimension"/>
+
+    <declare-styleable name="StandardTag">
+        <attr name="state_invalid" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="EmailTag">
+        <attr name="state_email_external" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ListItem">
+        <attr name="state_soft_focus" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="BaseTags">
+        <attr name="auto_generate_tag_flags">
+            <flag name="auto_tag_none" value="0x0"/>
+            <flag name="auto_tag_on_focus_lost" value="0x1"/>
+        </attr>
+        <attr name="read_only"/>
+        <attr name="max_tags_when_collapsed"/>
+        <attr name="use_soft_focus" format="boolean"/>
+        <attr name="tags_title" format="string"/>
+        <attr name="drag_group" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="WrapTagListView">
+        <attr name="max_tags_when_collapsed"/>
+        <attr name="read_only"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing"/>
+        <attr name="verticalSpacing" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_fill_remaining_width" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RelatedTagListView">
+        <attr name="horizontalSpacing"/>
+    </declare-styleable>
+</resources>

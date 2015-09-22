@@ -1,0 +1,473 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From lib.analyticsclient:
+* .checkstyle
+* Android.mk
+* build.xml
+* custom_rules.xml
+* proguard-project.txt
+* proguard.flags
+From lib.bb.widgets:
+* .DS_Store
+* Android.mk
+* build.xml
+* custom_rules.xml
+* ic_launcher-web.png
+* proguard-project.txt
+From lib.common:
+* .gitignore
+* Android.mk
+* antbuild.sh
+* build.xml
+* proguard-project.txt
+* proguard.flags
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/src/
+* tests/src/com/
+* tests/src/com/blackberry/
+* tests/src/com/blackberry/common/
+* tests/src/com/blackberry/common/content/
+* tests/src/com/blackberry/common/content/test/
+* tests/src/com/blackberry/common/content/test/ContentContentQueryTests.java
+From lib.common.ui:
+* .checkstyle
+* Android.mk
+* build.xml
+* proguard-project.txt
+* proguard.flags
+* tests/
+* tests/.checkstyle
+* tests/.classpath
+* tests/.gitignore
+* tests/.project
+* tests/src/
+* tests/src/com/
+* tests/src/com/blackberry/
+* tests/src/com/blackberry/common/
+* tests/src/com/blackberry/common/ui/
+* tests/src/com/blackberry/common/ui/contenteditor/
+* tests/src/com/blackberry/common/ui/contenteditor/CheckBoxContentBindingTests.java
+* tests/src/com/blackberry/common/ui/contenteditor/ContentBindingTests.java
+* tests/src/com/blackberry/common/ui/contenteditor/SpinnerContentBindingTests.java
+* tests/src/com/blackberry/common/ui/contenteditor/TextViewContentBindingTests.java
+* tests/src/com/blackberry/common/ui/editablewebview/
+* tests/src/com/blackberry/common/ui/editablewebview/CustomShadowWebView.java
+* tests/src/com/blackberry/common/ui/editablewebview/EditableWebViewTests.java
+* tests/src/com/blackberry/common/ui/editablewebview/ShadowWebSettings.java
+* tests/src/com/blackberry/common/ui/list/
+* tests/src/com/blackberry/common/ui/list/CursorLoaderCallbacksTests.java
+* tests/src/com/blackberry/common/ui/list/DateSectionizerTests.java
+* tests/src/com/blackberry/common/ui/list/ExtendedTestCursor.java
+* tests/src/com/blackberry/common/ui/list/ListFragmentTests.java
+* tests/src/com/blackberry/common/ui/list/LongSparseArrayAdapterTests.java
+* tests/src/com/blackberry/common/ui/list/SectionItemTests.java
+* tests/src/com/blackberry/common/ui/list/SectionedListAdapterTests.java
+* tests/src/com/blackberry/common/ui/list/SimpleSectionHeaderAdapterTests.java
+* tests/src/com/blackberry/common/ui/list/SimpleSectionizerTests.java
+* tests/src/com/blackberry/common/ui/list/SparseArrayAdapterTests.java
+* tests/src/com/blackberry/common/ui/list/TemplateBasedListItemAdapterTests.java
+* tests/src/com/blackberry/common/ui/list/templates/
+* tests/src/com/blackberry/common/ui/list/templates/TemplateManagerTests.java
+From lib.emailprovider:
+* .DS_Store
+* .checkstyle
+* Android.mk
+* build.xml
+* proguard-project.txt
+* proguard.flags
+* tests/
+* tests/.DS_Store
+* tests/.classpath
+* tests/.project
+* tests/AndroidManifest.xml
+* tests/lint.xml
+* tests/proguard-project.txt
+* tests/project.properties
+* tests/res/
+* tests/res/drawable-hdpi/
+* tests/res/drawable-hdpi/ic_launcher.png
+* tests/res/drawable-ldpi/
+* tests/res/drawable-ldpi/ic_launcher.png
+* tests/res/drawable-mdpi/
+* tests/res/drawable-mdpi/ic_launcher.png
+* tests/res/drawable-xhdpi/
+* tests/res/drawable-xhdpi/ic_launcher.png
+* tests/res/values/
+* tests/res/values/strings.xml
+* tests/res/xml/
+* tests/res/xml/test_providers.xml
+* tests/src/
+* tests/src/.DS_Store
+* tests/src/com/
+* tests/src/com/.DS_Store
+* tests/src/com/blackberry/
+* tests/src/com/blackberry/.DS_Store
+* tests/src/com/blackberry/email/
+* tests/src/com/blackberry/email/.DS_Store
+* tests/src/com/blackberry/email/account/
+* tests/src/com/blackberry/email/account/.DS_Store
+* tests/src/com/blackberry/email/account/activity/
+* tests/src/com/blackberry/email/account/activity/.DS_Store
+* tests/src/com/blackberry/email/account/activity/setup/
+* tests/src/com/blackberry/email/account/activity/setup/.DS_Store
+* tests/src/com/blackberry/email/account/activity/setup/AccountSettingsTests.java
+* tests/src/com/blackberry/email/account/activity/setup/AccountSettingsUtilsTests.java
+* tests/src/com/blackberry/email/account/activity/setup/AccountSetupIncomingTests.java
+* tests/src/com/blackberry/email/account/activity/setup/AccountSetupOptionsTests.java
+* tests/src/com/blackberry/email/account/activity/setup/AccountSetupOutgoingTests.java
+* tests/src/com/blackberry/email/provider/
+* tests/src/com/blackberry/email/provider/DBHelperTests.java
+* tests/src/com/blackberry/email/provider/EmailMenuProviderTests.java
+* tests/src/com/blackberry/email/provider/MessageTests.java
+* tests/src/com/blackberry/email/provider/ProviderTestUtils.java
+* tests/src/com/blackberry/email/provider/ProviderTests.java
+* tests/src/com/blackberry/email/provider/contract/
+* tests/src/com/blackberry/email/provider/contract/HostAuthTests.java
+* tests/src/com/blackberry/email/provider/contract/MailboxTests.java
+* tests/src/com/blackberry/email/provider/contract/PolicyTest.java
+* tests/src/com/blackberry/email/ui/
+* tests/src/com/blackberry/email/ui/compose/
+* tests/src/com/blackberry/email/ui/compose/controllers/
+* tests/src/com/blackberry/email/ui/compose/controllers/ComposeActivityTestCase.java
+* tests/src/com/blackberry/email/ui/compose/controllers/TestComposeActivity.java
+* tests/src/com/blackberry/test/
+* tests/src/com/blackberry/test/utility/
+* tests/src/com/blackberry/test/utility/ProviderTestCase3.java
+* tests/src/com/blackberry/test/utility/TestableEmailProvider.java
+From lib.notes:
+* Android.mk
+* build.xml
+* proguard-project.txt
+* proguard.flags
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/AndroidManifest.xml
+* tests/proguard-project.txt
+* tests/project.properties
+* tests/res/
+* tests/res/values/
+* tests/res/values/strings.xml
+* tests/src/
+* tests/src/com/
+* tests/src/com/blackberry/
+* tests/src/com/blackberry/note/
+* tests/src/com/blackberry/note/NoteProviderTest.java
+* tests/src/com/blackberry/note/NoteProviderTestUtil.java
+* tests/src/com/blackberry/note/NoteTest.java
+From lib.photoviewer:
+* Android.mk
+* build.xml
+* proguard-project.txt
+* proguard.flags
+From lib.pimbase:
+* Android.mk
+* build.xml
+* proguard-project.txt
+* proguard.flags
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/AndroidManifest.xml
+* tests/libs/
+* tests/libs/dexmaker-1.0.jar
+* tests/libs/dexmaker-mockito-1.0.jar
+* tests/libs/mockito-all-1.9.5.jar
+* tests/lint.xml
+* tests/proguard-project.txt
+* tests/project.properties
+* tests/res/
+* tests/res/drawable-hdpi/
+* tests/res/drawable-hdpi/ic_launcher.png
+* tests/res/drawable-ldpi/
+* tests/res/drawable-ldpi/ic_launcher.png
+* tests/res/drawable-mdpi/
+* tests/res/drawable-mdpi/ic_launcher.png
+* tests/res/drawable-xhdpi/
+* tests/res/drawable-xhdpi/ic_launcher.png
+* tests/res/values/
+* tests/res/values/strings.xml
+* tests/src/
+* tests/src/com/
+* tests/src/com/blackberry/
+* tests/src/com/blackberry/pimbase/
+* tests/src/com/blackberry/pimbase/provider/
+* tests/src/com/blackberry/pimbase/provider/utilities/
+* tests/src/com/blackberry/pimbase/provider/utilities/ContentProviderBulkOpsHelperTests.java
+* tests/src/com/blackberry/pimbase/provider/utilities/OperationTests.java
+* tests/src/com/blackberry/pimbase/provider/utilities/OperationsTests.java
+* tests/src/com/blackberry/pimbase/service/
+* tests/src/com/blackberry/pimbase/service/CPMaintenanceServiceTests.java
+* tests/src/com/blackberry/pimbase/service/DatabaseMaintenanceServiceTests.java
+* tests/src/com/blackberry/pimbase/service/PimWakefulIntentServiceTests.java
+* tests/src/com/blackberry/pimbase/test/
+* tests/src/com/blackberry/pimbase/test/PIMContentProviderBaseTest.java
+* tests/src/com/blackberry/pimbase/test/provider/
+* tests/src/com/blackberry/pimbase/test/provider/MyTestContract.java
+* tests/src/com/blackberry/pimbase/test/provider/MyTestHelper.java
+* tests/src/com/blackberry/pimbase/test/provider/MyTestProvider.java
+* tests/src/com/blackberry/pimbase/test/utilities/
+* tests/src/com/blackberry/pimbase/test/utilities/MockContentResolver2.java
+* tests/src/com/blackberry/pimbase/test/utilities/MockObserverNode.java
+* tests/src/com/blackberry/pimbase/test/utilities/ProviderTestCase3.java
+From lib.pimclient:
+* .DS_Store
+* Android.mk
+* build.xml
+* custom_rules.xml
+* proguard-project.txt
+* tests/
+* tests/.DS_Store
+* tests/.classpath
+* tests/.project
+* tests/AndroidManifest.xml
+* tests/proguard-project.txt
+* tests/project.properties
+* tests/res/
+* tests/res/drawable-hdpi/
+* tests/res/drawable-hdpi/ic_launcher.png
+* tests/res/drawable-ldpi/
+* tests/res/drawable-ldpi/ic_launcher.png
+* tests/res/drawable-mdpi/
+* tests/res/drawable-mdpi/ic_launcher.png
+* tests/res/drawable-xhdpi/
+* tests/res/drawable-xhdpi/ic_launcher.png
+* tests/res/values/
+* tests/res/values/strings.xml
+* tests/src/
+* tests/src/.DS_Store
+* tests/src/com/
+* tests/src/com/.DS_Store
+* tests/src/com/blackberry/
+* tests/src/com/blackberry/.DS_Store
+* tests/src/com/blackberry/message/
+* tests/src/com/blackberry/message/.DS_Store
+* tests/src/com/blackberry/message/service/
+* tests/src/com/blackberry/message/service/AccountAttributeValueTest.java
+* tests/src/com/blackberry/message/service/AccountValueTest.java
+* tests/src/com/blackberry/message/service/MessageServiceTest.java
+From lib.tasks:
+* Android.mk
+* build.xml
+* proguard-project.txt
+* proguard.flags
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/AndroidManifest.xml
+* tests/proguard-project.txt
+* tests/project.properties
+* tests/res/
+* tests/res/values/
+* tests/res/values/strings.xml
+* tests/src/
+* tests/src/com/
+* tests/src/com/blackberry/
+* tests/src/com/blackberry/task/
+* tests/src/com/blackberry/task/TaskProviderTest.java
+* tests/src/com/blackberry/task/TaskProviderTestUtil.java
+* tests/src/com/blackberry/task/TaskTest.java
+From lib.tokens:
+* Android.mk
+* antbuild.sh
+* build.xml
+* proguard-project.txt
+* proguard.flags
+* tests/
+* tests/.classpath
+* tests/.project
+* tests/.settings/
+* tests/.settings/org.eclipse.jdt.core.prefs
+* tests/AndroidManifest.xml
+* tests/ant.properties
+* tests/antbuild.sh
+* tests/build.xml
+* tests/custom_rules.xml
+* tests/libs/
+* tests/libs/android-junit-report-1.5.8.jar
+* tests/proguard-project.txt
+* tests/project.properties
+* tests/res/
+* tests/res/drawable-hdpi/
+* tests/res/drawable-hdpi/ic_launcher.png
+* tests/res/drawable-ldpi/
+* tests/res/drawable-ldpi/ic_launcher.png
+* tests/res/drawable-mdpi/
+* tests/res/drawable-mdpi/ic_launcher.png
+* tests/res/drawable-xhdpi/
+* tests/res/drawable-xhdpi/ic_launcher.png
+* tests/res/values/
+* tests/res/values/strings.xml
+* tests/src/
+* tests/src/com/
+* tests/src/com/android/
+* tests/src/com/android/ex/
+* tests/src/com/android/ex/chips/
+* tests/src/com/android/ex/chips/ChipsTest.java
+* tests/src/com/android/ex/chips/RecipientAlternatesAdapterTest.java
+From lib.vendor:
+* Android.mk
+* antbuild.sh
+* build.xml
+* proguard-project.txt
+* proguard.flags
+From test.lib.qa.pimcommon:
+* .DS_Store
+* .checkstyle
+* gitMessage.txt
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.+
+guava-16.0.1.jar => com.google.guava:guava:16.0.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+guava-16.0.1.jar => version 16.0.1 in com.google.guava:guava:16.0.1
+guava-16.0.1.jar => version 16.0.1 in com.google.guava:guava:16.0.1
+guava-16.0.1.jar => version 16.0.1 in com.google.guava:guava:16.0.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In lib.bb.widgets:
+* AndroidManifest.xml => libbbwidgets/src/main/AndroidManifest.xml
+* res/ => libbbwidgets/src/main/res/
+* src/ => libbbwidgets/src/main/java/
+In lib.common:
+* AndroidManifest.xml => libcommon/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libcommon/libs/android-support-v13.jar
+* res/ => libcommon/src/main/res/
+* src/ => libcommon/src/main/java/
+In lib.pimclient:
+* AndroidManifest.xml => libpimclient/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libpimclient/libs/android-support-v13.jar
+* res/ => libpimclient/src/main/res/
+* src/ => libpimclient/src/main/java/
+* src/com/blackberry/message/service/AccountAttributeValue.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/AccountAttributeValue.aidl
+* src/com/blackberry/message/service/AccountValue.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/AccountValue.aidl
+* src/com/blackberry/message/service/ConversationValue.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/ConversationValue.aidl
+* src/com/blackberry/message/service/FolderValue.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/FolderValue.aidl
+* src/com/blackberry/message/service/IMessagingService.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/IMessagingService.aidl
+* src/com/blackberry/message/service/MessageContactValue.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/MessageContactValue.aidl
+* src/com/blackberry/message/service/MessageFilter.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/MessageFilter.aidl
+* src/com/blackberry/message/service/MessageValue.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/MessageValue.aidl
+* src/com/blackberry/message/service/ServiceResult.aidl => libpimclient/src/main/aidl/com/blackberry/message/service/ServiceResult.aidl
+In lib.analyticsclient:
+* AndroidManifest.xml => libanalyticsclient/src/main/AndroidManifest.xml
+* res/ => libanalyticsclient/src/main/res/
+* src/ => libanalyticsclient/src/main/java/
+* src/com/blackberry/analytics/provider/AnalyticsContactValue.aidl => libanalyticsclient/src/main/aidl/com/blackberry/analytics/provider/AnalyticsContactValue.aidl
+In lib.vendor:
+* AndroidManifest.xml => libvendor/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libvendor/libs/android-support-v13.jar
+* res/ => libvendor/src/main/res/
+* src/ => libvendor/src/main/java/
+In lib.common.ui:
+* AndroidManifest.xml => libcommonui/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libcommonui/libs/android-support-v13.jar
+* libs/com.blackberry.menu.jar => libcommonui/libs/com.blackberry.menu.jar
+* res/ => libcommonui/src/main/res/
+* src/ => libcommonui/src/main/java/
+In lib.notes:
+* AndroidManifest.xml => libnotes/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libnotes/libs/android-support-v13.jar
+* res/ => libnotes/src/main/res/
+* src/ => libnotes/src/main/java/
+In lib.photoviewer:
+* AndroidManifest.xml => libphotoviewer/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libphotoviewer/libs/android-support-v13.jar
+* res/ => libphotoviewer/src/main/res/
+* src/ => libphotoviewer/src/main/java/
+In lib.pimbase:
+* AndroidManifest.xml => libpimbase/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libpimbase/libs/android-support-v13.jar
+* res/ => libpimbase/src/main/res/
+* src/ => libpimbase/src/main/java/
+In lib.tasks:
+* AndroidManifest.xml => libtasks/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libtasks/libs/android-support-v13.jar
+* res/ => libtasks/src/main/res/
+* src/ => libtasks/src/main/java/
+In lib.tokens:
+* AndroidManifest.xml => libtokens/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libtokens/libs/android-support-v13.jar
+* lint.xml => libtokens/lint.xml
+* res/ => libtokens/src/main/res/
+* src/ => libtokens/src/main/java/
+In lib.emailprovider:
+* AndroidManifest.xml => libemailprovider/src/main/AndroidManifest.xml
+* libs/android-support-v13.jar => libemailprovider/libs/android-support-v13.jar
+* libs/com.blackberry.menu.jar => libemailprovider/libs/com.blackberry.menu.jar
+* res/ => libemailprovider/src/main/res/
+* src/ => libemailprovider/src/main/java/
+* src/com/blackberry/dav/service/IDavCheckSettings.aidl => libemailprovider/src/main/aidl/com/blackberry/dav/service/IDavCheckSettings.aidl
+* src/com/blackberry/email/provider/contract/Account.aidl => libemailprovider/src/main/aidl/com/blackberry/email/provider/contract/Account.aidl
+* src/com/blackberry/email/provider/contract/HostAuth.aidl => libemailprovider/src/main/aidl/com/blackberry/email/provider/contract/HostAuth.aidl
+* src/com/blackberry/email/provider/contract/Policy.aidl => libemailprovider/src/main/aidl/com/blackberry/email/provider/contract/Policy.aidl
+* src/com/blackberry/email/service/IAccountService.aidl => libemailprovider/src/main/aidl/com/blackberry/email/service/IAccountService.aidl
+* src/com/blackberry/email/service/IEmailService.aidl => libemailprovider/src/main/aidl/com/blackberry/email/service/IEmailService.aidl
+* src/com/blackberry/email/service/IEmailServiceCallback.aidl => libemailprovider/src/main/aidl/com/blackberry/email/service/IEmailServiceCallback.aidl
+* src/com/blackberry/email/service/IPolicyService.aidl => libemailprovider/src/main/aidl/com/blackberry/email/service/IPolicyService.aidl
+* src/com/blackberry/email/service/SearchParams.aidl => libemailprovider/src/main/aidl/com/blackberry/email/service/SearchParams.aidl
+In test.lib.qa.pimcommon:
+* AndroidManifest.xml => testLibQaPimCommon/src/main/AndroidManifest.xml
+* res/ => testLibQaPimCommon/src/main/res/
+* src/ => testLibQaPimCommon/src/main/java/
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

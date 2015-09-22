@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Learn Cantonese!</string>
+    <string name="app_name">Learn Cantonese</string>
+    <string name="are_you_hungry">肚唔肚餓 - 饿吗 - Are you hungry</string>
+    <string name="go_where">去邊度 - 去哪里 - Go where</string>
+    <string name="have_you_eaten_yet">食咗飯沒呀 - 吃了饭吗 - Have you eaten yet</string>
+    <string name="feel_free_to_take_a_look">隨便睇睇 － 随便看看 － Feel free to take a look</string>
+    <string name="very_tired">好癐呀 － 很累哦 － Very tired</string>
+    <string name="monday_tuesday_wednesday_thursday_friday_saturday_sunday">星期一，二，三，四，五，六，日 － Monday Tuesday Wednesday Thursday Friday Saturday Sunday</string>
+    <string name="number">1,2,3,4,5,6,7,8,9,10</string>
+    <string name="why">點解 - 为什么 - Why</string>
+    <string name="what_to_do">做咩 - 做什么 - What to do</string>
+    <string name="what_time_is_it">幾點鐘 - 几点钟 - What time is it</string>
+    <string name="shower">沖涼 - 洗澡 - Shower</string>
+    <string name="sleep">瞓覺 - 睡觉 - Sleep</string>
+    <string name="watch_tv">睇電視 - 看电视 - Watch tv</string>
+    <string name="go_home">返屋企 - 回家 - Go home</string>
+    <string name="go_watch_movie">去睇戲 - 去看电影 - Go watch movie</string>
+    <string name="drive">揸車 － 开车 － Drive</string>
+    <string name="buy_grocery">買餸 － 买菜 － Buy grocery</string>
+    <string name="cook">煮菜 － 做菜 － Cook</string>
+    <string name="wash_clothes">洗衫 － 洗衣服 － Wash clothes</string>
+    <string name="play_computer">玩電腦 － 打计算机 － Play computer</string>
+    <string name="play_soccer">踢足球 － 踢足球 － Play soccer</string>
+    <string name="today">今日 - 今天 - Today</string>
+    <string name="tomorrow">聽日 - 明天 - Tomorrow</string>
+    <string name="yesterday">尋日 - 昨天 - Yesterday</string>
+    <string name="morning">早晨 - 早上 - Morning</string>
+    <string name="goodbye">拜拜 - 再见 - Goodbye</string>
+    <string name="thank_you_for_service_provided">唔該 - 谢谢 - Thank you</string>
+    <string name="thank_you_for_things_provided">多謝 - 谢谢 - Thank you</string>
+    <string name="no_problem">冇問題 - 没问题 - No problem</string>
+    <string name="delicious">好好食 － 很好吃 － Delicious</string>
+    <string name="sorry">對唔住 － 对不起 － Sorry</string>
+    <string name="happy_birthday">生日快樂 - 生日快乐 - Happy Birthday</string>
+    <string name="beef">牛肉 － 牛肉 － Beef</string>
+    <string name="pork">豬肉 － 猪肉 － Pork</string>
+    <string name="chicken">雞肉 － 鸡肉 － Chicken</string>
+    <string name="lamb">羊肉 － 羊肉 － Lamb</string>
+    <string name="bread">麵包 － 面包 － Bread</string>
+    <string name="fruit">水果 － 水果 － Fruit</string>
+    <string name="fish">魚 － 鱼 － Fish</string>
+    <string name="you">你哋 － 你们 － You</string>
+    <string name="we">我哋 － 我们 － We</string>
+    <string name="they">佢哋 － 他们 － They</string>
+    <string name="black">黑色 － 黑色 － Black</string>
+    <string name="blue">藍色 － 藍色 － Blue</string>
+    <string name="white">白色 － 白色 － White</string>
+    <string name="yellow">黃色 － 黄色 － Yellow</string>
+    <string name="red">紅色 － 红色 － Red</string>
+    <string name="green">綠色 － 绿色 － Green</string>
+    <string name="cola">可樂 － 可口可乐 － Cola</string>
+    <string name="tea">茶 － 茶－ Tea</string>
+    <string name="water">水 － 水 － Water</string>
+    <string name="weather">天氣 － 天气 － Weather</string>
+
+    <string name="show_me">Show me the dialog!</string>
+    <string name="dlg_title">A Sample Dialog</string>
+    <string name="toast">File Name: %1$s</string>
+    <string name="back">You pressed BACK!</string>
+    <string name="file_name">File Name:</string>
+    <string name="record">Record New</string>
+
+</resources>

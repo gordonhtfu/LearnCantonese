@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skyblue_gradient_top">#0092CC</color>
+    <color name="skyblue_gradient_bottom">#0080B3</color>
+</resources>

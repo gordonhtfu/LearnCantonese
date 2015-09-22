@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/fg_actionbadge_halfpadding" >
+
+    <com.blackberry.widgets.MaxLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxHeight="@dimen/fg_max_large_actionbadge_size"
+        android:orientation="horizontal" >
+
+        <com.blackberry.widgets.smartintentchooser.SquareFrameLayout
+            android:id="@id/fgLocation1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/fg_actionbadge_halfpadding" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.blackberry.widgets.MaxLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:maxHeight="@dimen/fg_max_small_actionbadge_size"
+                android:orientation="horizontal" >
+
+                <com.blackberry.widgets.smartintentchooser.SquareFrameLayout
+                    android:id="@id/fgLocation4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="@dimen/fg_actionbadge_halfpadding" />
+
+                <com.blackberry.widgets.smartintentchooser.SquareFrameLayout
+                    android:id="@id/fgLocation5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="@dimen/fg_actionbadge_halfpadding" />
+            </com.blackberry.widgets.MaxLinearLayout>
+
+            <com.blackberry.widgets.MaxLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:maxHeight="@dimen/fg_max_small_actionbadge_size"
+                android:orientation="horizontal" >
+
+                <com.blackberry.widgets.smartintentchooser.SquareFrameLayout
+                    android:id="@id/fgLocation6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="@dimen/fg_actionbadge_halfpadding" />
+
+                <com.blackberry.widgets.smartintentchooser.SquareFrameLayout
+                    android:id="@id/fgLocation7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="@dimen/fg_actionbadge_halfpadding" />
+            </com.blackberry.widgets.MaxLinearLayout>
+        </LinearLayout>
+    </com.blackberry.widgets.MaxLinearLayout>
+
+    <com.blackberry.widgets.MaxLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:maxHeight="@dimen/fg_max_large_actionbadge_size"
+        android:orientation="horizontal" >
+
+        <com.blackberry.widgets.smartintentchooser.SquareFrameLayout
+            android:id="@id/fgLocation2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/fg_actionbadge_halfpadding" />
+
+        <com.blackberry.widgets.smartintentchooser.SquareFrameLayout
+            android:id="@id/fgLocation3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/fg_actionbadge_halfpadding" />
+    </com.blackberry.widgets.MaxLinearLayout>
+
+</LinearLayout><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/frequent_group_7.xml --><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/build/intermediates/bundles/debug/res/layout/frequent_group_7.xml -->

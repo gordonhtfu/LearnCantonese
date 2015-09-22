@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="default_bg">#ffffff</color>
+    <color name="divider_color">#f0f0f0</color>
+    <color name="pressed_state">#e5e5e5</color>
+    <color name="primary_text">#323232</color>
+    <color name="secondary_text">#646464</color>
+    <color name="selected_state">#d5eaf0</color>
+    <color name="tertiary_text">#828282</color>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="EditableWebViewAttrs">
+        <attr name="securityScheme" format="string" />
+    </declare-styleable>
+    <declare-styleable name="TreeViewList">
+        <attr name="collapsible" format="boolean" />
+        <attr name="src_expanded" format="reference|color" />
+        <attr name="src_collapsed" format="reference|color" />
+        <attr name="indent_width" format="dimension" />
+        <attr name="indicator_gravity">
+
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!--
+                 Additional option that can be set to have the top and/or bottom edges of the child clipped to its container's bounds.
+				The clip will be based on the vertical gravity: a top gravity will clip the bottom edge, a bottom gravity will clip the top
+				edge, and neither will clip both edges.
+            -->
+            <flag name="clip_vertical" value="0x80" />
+            <!--
+                 Additional option that can be set to have the left and/or right edges of the child clipped to its container's bounds.
+				The clip will be based on the horizontal gravity: a left gravity will clip the right edge, a right gravity will clip the
+				left edge, and neither will clip both edges.
+            -->
+            <flag name="clip_horizontal" value="0x08" />
+        </attr>
+        <attr name="indicator_background" format="reference|color" />
+        <attr name="row_background" format="reference|color" />
+    </declare-styleable>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/dimen.xml -->
+    <eat-comment />
+
+    <dimen name="content_start_margin">72dp</dimen>
+    <dimen name="counter_text_size">10sp</dimen>
+    <dimen name="date_text_size">12sp</dimen>
+    <dimen name="drawer_list_item_height">48dp</dimen>
+    <dimen name="edge_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">288dp</dimen>
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="secondary_text_size">14sp</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_create">Create</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="all_folders">All Folders</string>
+    <string name="app_name">lib.common.ui</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/preference.xml -->
+    <eat-comment />
+
+    <string name="pref_display_order_sn" translatable="false">sn</string>
+    <string name="pref_key_display_order" translatable="false">pk_display_order</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="BaseTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CounterTextStyle" parent="BaseTextStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/counter_text_size</item>
+    </style>
+
+    <style name="PrimaryListItemImage">
+        <item name="android:layout_width">38dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_marginLeft">@dimen/edge_margin</item>
+    </style>
+
+    <style name="PrimaryTextStyle" parent="BaseTextStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/primary_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SecondaryTextStyle" parent="BaseTextStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+    </style>
+
+    <style name="TreeViewListStyle" parent="@android:attr/listViewStyle">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:divider">@drawable/divider</item>
+    </style>
+
+</resources>

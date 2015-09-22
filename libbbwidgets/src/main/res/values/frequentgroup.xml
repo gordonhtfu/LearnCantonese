@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Aliases for the grouped layouts -->
+    <item name="frequent_group_1" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_2" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_3" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_4" type="layout">@layout/frequent_group_4_to_5</item>
+    <item name="frequent_group_5" type="layout">@layout/frequent_group_4_to_5</item>
+
+    <!-- Resource IDs common to all of the FrequentGroup's layout files -->
+    <item name="fgLocation1" type="id"/>
+    <item name="fgLocation2" type="id"/>
+    <item name="fgLocation3" type="id"/>
+    <item name="fgLocation4" type="id"/>
+    <item name="fgLocation5" type="id"/>
+    <item name="fgLocation6" type="id"/>
+    <item name="fgLocation7" type="id"/>
+    <item name="fgLocation8" type="id"/>
+    <item name="fgLocation9" type="id"/>
+    <item name="fgLocation10" type="id"/>
+
+    <!--
+    Maximum dimensions for the 3 badge sizes. This includes padding! 
+    Can be overridden by resource selectors.
+    -->
+    <dimen name="fg_max_large_actionbadge_size">240dp</dimen>
+    <!-- Medium needs to be ((large * 2) / 3) -->
+    <dimen name="fg_max_medium_actionbadge_size">160dp</dimen>
+    <!-- Small needs to be (large / 2) -->
+    <dimen name="fg_max_small_actionbadge_size">120dp</dimen>
+
+    <!--
+    Half of the padding between badges. Each badge + the outside layout uses the padding 
+    to make up the full padding
+    -->
+    <dimen name="fg_actionbadge_halfpadding">4dp</dimen>
+
+</resources>

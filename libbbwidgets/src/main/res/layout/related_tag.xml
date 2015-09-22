@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/related_tag_background"
+    android:duplicateParentState="true"
+    android:minWidth="60dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:duplicateParentState="true"
+        android:paddingLeft="4dp">
+
+        <TextView
+            android:id="@+id/stLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:duplicateParentState="true"
+            android:paddingRight="4dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@color/bright_text_tertiary" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tag_bright_overlay"
+        android:duplicateParentState="true" />
+
+</FrameLayout>

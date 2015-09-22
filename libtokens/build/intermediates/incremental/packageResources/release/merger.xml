@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger
+    version="2"
+    xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" >
+
+    <dataSet config="main" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res" >
+            <file
+                name="list_item_font_primary"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable/list_item_font_primary.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_item_font_secondary"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable/list_item_font_secondary.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="chip_background"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-hdpi/chip_background.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_background_invalid"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-hdpi/chip_background_invalid.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_background_selected"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-hdpi/chip_background_selected.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_delete"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-hdpi/chip_delete.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-hdpi/ic_contact_picture.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_background"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-mdpi/chip_background.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_background_invalid"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-mdpi/chip_background_invalid.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_background_selected"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-mdpi/chip_background_selected.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_delete"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-mdpi/chip_delete.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-mdpi/ic_contact_picture.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_background"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-xhdpi/chip_background.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_background_invalid"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-xhdpi/chip_background_invalid.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="chip_background_selected"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-xhdpi/chip_background_selected.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_contact_picture"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-xhdpi/ic_contact_picture.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="chips_alternate_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/layout/chips_alternate_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="chips_recipient_dropdown_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/layout/chips_recipient_dropdown_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="copy_chip_dialog_layout"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/layout/copy_chip_dialog_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="more_item"
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/layout/more_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="RecipientEditTextView" >
+                    <attr
+                        name="invalidChipBackground"
+                        format="reference" />
+                    <attr
+                        name="chipBackground"
+                        format="reference" />
+                    <attr
+                        name="chipBackgroundPressed"
+                        format="reference" />
+                    <attr
+                        name="chipDelete"
+                        format="reference" />
+                    <attr
+                        name="chipAlternatesLayout"
+                        format="reference" />
+                    <attr
+                        name="chipPadding"
+                        format="reference" />
+                    <attr
+                        name="chipHeight"
+                        format="reference" />
+                    <attr
+                        name="chipFontSize"
+                        format="reference" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values/dimen.xml"
+                qualifiers="" >
+                <dimen name="chip_height" >32dip
+                </dimen>
+                <dimen name="chip_text_size" >14sp
+                </dimen>
+
+                <integer name="chips_max_lines" >
+-1
+                </integer>
+
+                <dimen name="line_spacing_extra" >4dip
+                </dimen>
+                <dimen name="chip_padding" >8dip
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="done" >Return
+                </string>
+                <string name="copy_number" >Copy phone number
+                </string>
+                <string name="copy_email" >Copy email address
+                </string>
+                <string name="more_string" >\u002B
+<ns1:g id="count" >
+%1$s
+                    </ns1:g></string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="RecipientEditTextView"
+                    parent="@android:attr/autoCompleteTextViewStyle" >
+                    <item name="android:inputType">
+textEmailAddress|textMultiLine
+                    </item>
+                    <item name="android:imeOptions">
+actionNext|flagNoFullscreen
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceMedium
+                    </item>
+                    <item name="android:background">
+@null
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:dropDownVerticalOffset">
+-6dip
+                    </item>
+                    <item name="android:dropDownHorizontalOffset">
+-16dip
+                    </item>
+                    <item name="android:minHeight">
+48dip
+                    </item>
+                    <item name="android:lineSpacingExtra">
+@dimen/line_spacing_extra
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-af/strings.xml"
+                qualifiers="af" >
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Terugkeer"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopieer foonnommer"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopieer e-posadres"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-am/strings.xml"
+                qualifiers="am" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"የስልክ ቁጥር ቅዳ"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"መልስ"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"የኢሜይል አድራሻ ቅዳ"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-ar/strings.xml"
+                qualifiers="ar" >
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"رجوع"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"نسخ رقم الهاتف"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"نسخ عنوان البريد الإلكتروني"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>+"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-be/strings.xml"
+                qualifiers="be" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Назад"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Скапіраваць адрас электроннай пошты"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Скапіраваць нумар тэлефона"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-bg/strings.xml"
+                qualifiers="bg" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+ 
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Копиране на имейл адреса"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Копиране на телефонния номер"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-ca/strings.xml"
+                qualifiers="ca" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copia l\'adreça electrònica"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copia el número de telèfon"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Retorn"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-cs/strings.xml"
+                qualifiers="cs" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopírovat e-mailovou adresu"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopírovat telefonní číslo"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-da/strings.xml"
+                qualifiers="da" >
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Tilbage"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopiér telefonnummeret"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopiér e-mailadressen"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-de/strings.xml"
+                qualifiers="de" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Eingabe"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Telefonnummer kopieren"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"E-Mail-Adresse kopieren"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-el/strings.xml"
+                qualifiers="el" >
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Πλήκτρο Return"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Αντιγραφή διεύθυνσης ηλεκτρονικού ταχυδρομείου"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Αντιγραφή αριθμού τηλεφώνου"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-en-rGB/strings.xml"
+                qualifiers="en-rGB" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copy phone number"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Return"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copy email address"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-es/strings.xml"
+                qualifiers="es" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Intro"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copiar número de teléfono"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copiar dirección de correo electrónico"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-es-rUS/strings.xml"
+                qualifiers="es-rUS" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copiar la dirección de correo"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Volver"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copiar el número de teléfono"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-et/strings.xml"
+                qualifiers="et" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopeeri telefoninumber"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Sisestus"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopeeri e-posti aadress"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-fa/strings.xml"
+                qualifiers="fa" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"کپی آدرس ایمیل"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"بازگشت"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"کپی شماره تلفن"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-fi/strings.xml"
+                qualifiers="fi" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopioi sähköpostiosoite"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopioi puhelinnumero"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"yli 
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-fr/strings.xml"
+                qualifiers="fr" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copier le numéro de téléphone"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Entrée"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copier l\'adresse e-mail"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+ 
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-hi/strings.xml"
+                qualifiers="hi" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"फोन नंबर की प्रतिलिपि बनाएं"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"ईमेल पते की प्रतिलिपि बनाएं"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"वापस लौटें"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-hr/strings.xml"
+                qualifiers="hr" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopiranje telefonskog broja"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopiranje e-adrese"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Vrati"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-hu/strings.xml"
+                qualifiers="hu" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"E-mail cím másolása"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Telefonszám másolása"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-in/strings.xml"
+                qualifiers="in" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Kembali"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Salin nomor telepon"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Salin alamat email"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-it/strings.xml"
+                qualifiers="it" >
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Invio"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copia indirizzo email"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copia numero di telefono"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-iw/strings.xml"
+                qualifiers="iw" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"העתק כתובת דוא\"ל"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"חזור"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"העתק מספר טלפון"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-ja/strings.xml"
+                qualifiers="ja" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"電話番号をコピー"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"メールアドレスをコピー"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"戻る"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-ko/strings.xml"
+                qualifiers="ko" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>명 이상"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"전화번호 복사"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"입력"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"이메일 주소 복사"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-land/dimen.xml"
+                qualifiers="land" >
+                <dimen name="chip_height" >26dip
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-lt/strings.xml"
+                qualifiers="lt" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopijuoti el. pašto adresą"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopijuoti telefono numerį"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Grįžti"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+ 
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-lv/strings.xml"
+                qualifiers="lv" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopēt tālruņa numuru"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"Vairāk nekā 
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopēt e-pasta adresi"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Iev. taust."
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-ms/strings.xml"
+                qualifiers="ms" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Salin nombor telefon"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Salin alamat e-mel"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Kembali"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-nb/strings.xml"
+                qualifiers="nb" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopiér e-postadressen"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Gå tilbake"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopiér telefonnummeret"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-nl/strings.xml"
+                qualifiers="nl" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"E-mailadres kopiëren"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Return"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Telefoonnummer kopiëren"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-pl/strings.xml"
+                qualifiers="pl" >
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopiuj adres e-mail"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopiuj numer telefonu"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-pt/strings.xml"
+                qualifiers="pt" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copiar endereço de e-mail"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copiar número de telefone"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-pt-rPT/strings.xml"
+                qualifiers="pt-rPT" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copiar número de telefone"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Voltar"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copiar endereço de email"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-ro/strings.xml"
+                qualifiers="ro" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Copiaţi numărul de telefon"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Copiaţi adresa de e-mail"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-ru/strings.xml"
+                qualifiers="ru" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Скопировать номер телефона"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"ещё 
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Скопировать адрес эл. почты"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Назад"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-sk/strings.xml"
+                qualifiers="sk" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopírovať e-mailovú adresu"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopírovať telefónne číslo"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-sl/strings.xml"
+                qualifiers="sl" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopiranje telefonske številke"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopiranje e-poštnega naslova"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Vračalka"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-sr/strings.xml"
+                qualifiers="sr" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Копирај број телефона"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Врати"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Копирај адресу е-поште"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-sv/strings.xml"
+                qualifiers="sv" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopiera e-postadress"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopiera telefonnummer"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Retur"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-sw/strings.xml"
+                qualifiers="sw" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Nakili namba ya simu"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Inayofuata"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Nakili anwani ya barua pepe"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-sw600dp/styles.xml"
+                qualifiers="sw600dp-v13" >
+
+                <style
+                    name="RecipientEditTextView"
+                    parent="@android:attr/autoCompleteTextViewStyle" >
+                    <item name="android:paddingLeft">
+8dip
+                    </item>
+                    <item name="android:paddingRight">
+4dip
+                    </item>
+                    <item name="android:inputType">
+textEmailAddress|textMultiLine
+                    </item>
+                    <item name="android:imeOptions">
+actionNext
+                    </item>
+                    <item name="android:textAppearance">
+?android:attr/textAppearanceMedium
+                    </item>
+                    <item name="android:background">
+@null
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:dropDownVerticalOffset">
+0dip
+                    </item>
+                    <item name="android:dropDownHorizontalOffset">
+-4dip
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-sw600dp-land/dimen.xml"
+                qualifiers="sw600dp-land-v13" >
+                <dimen name="chip_padding" >8dip
+                </dimen>
+                <dimen name="chip_height" >32dip
+                </dimen>
+                <dimen name="chip_text_size" >14sp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-th/strings.xml"
+                qualifiers="th" >
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"ส่งคืน"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"คัดลอกหมายเลขโทรศัพท์"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"คัดลอกที่อยู่อีเมล"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-tl/strings.xml"
+                qualifiers="tl" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopyahin ang numero ng telepono"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopyahin ang email address"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Bumalik"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-tr/strings.xml"
+                qualifiers="tr" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"E-posta adresini kopyala"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Telefon numarasını kopyala"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Enter"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-uk/strings.xml"
+                qualifiers="uk" >
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Return"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Копіювати номер телефону"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Копіювати електронну адресу"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-vi/strings.xml"
+                qualifiers="vi" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Sao chép số điện thoại"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Sao chép địa chỉ email"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Quay lại"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-zh-rCN/strings.xml"
+                qualifiers="zh-rCN" >
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"复制电话号码"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"复制电子邮件地址"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"上一步"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-zh-rTW/strings.xml"
+                qualifiers="zh-rTW" >
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g> 人"
+                </string>
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"複製電子郵件地址"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"複製電話號碼"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"返回"
+                </string>
+            </file>
+            <file
+                path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/main/res/values-zu/strings.xml"
+                qualifiers="zu" >
+                <string
+                    name="copy_email"
+                    msgid="7869435992461603532" >"Kopisha ikheli le-imeyli"
+                </string>
+                <string
+                    name="done"
+                    msgid="2356320650733788862" >"Buyela"
+                </string>
+                <string
+                    name="copy_number"
+                    msgid="530057841276106843" >"Kopisha inombolo yefoni"
+                </string>
+                <string
+                    name="more_string"
+                    msgid="8495478259330621990" >"+
+<ns1:g id="COUNT" >
+%1$s
+                    </ns1:g>"
+                </string>
+            </file>
+        </source>
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/build/generated/res/rs/release" />
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libtokens/src/release/res" />
+    </dataSet>
+
+</merger>

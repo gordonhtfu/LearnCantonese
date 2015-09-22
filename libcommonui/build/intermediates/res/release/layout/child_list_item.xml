@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/primary_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+</TextView>
+<!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/child_list_item.xml -->

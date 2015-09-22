@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Aliases for the grouped layouts -->
+    <item name="frequent_group_1" type="layout">@layout/frequent_group_xwide_1_to_4</item>
+    <item name="frequent_group_2" type="layout">@layout/frequent_group_xwide_1_to_4</item>
+    <item name="frequent_group_3" type="layout">@layout/frequent_group_xwide_1_to_4</item>
+    <item name="frequent_group_4" type="layout">@layout/frequent_group_xwide_1_to_4</item>
+    <item name="frequent_group_5" type="layout">@layout/frequent_group_xwide_5_to_7</item>
+    <item name="frequent_group_6" type="layout">@layout/frequent_group_xwide_5_to_7</item>
+    <item name="frequent_group_7" type="layout">@layout/frequent_group_xwide_5_to_7</item>
+    <item name="frequent_group_8" type="layout">@layout/frequent_group_xwide_8_to_10</item>
+    <item name="frequent_group_9" type="layout">@layout/frequent_group_xwide_8_to_10</item>
+    <item name="frequent_group_10" type="layout">@layout/frequent_group_xwide_8_to_10</item>
+
+</resources>

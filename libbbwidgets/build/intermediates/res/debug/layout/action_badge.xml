@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/abRootLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/action_badge_border" >
+
+    <ImageView
+        android:id="@+id/abBackgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/abLabel" >
+
+        <!--
+        paddingBottom fixes a bug in Android layouts where the 
+        marginBottom is ignored when alignParentBottom is true
+        -->
+
+        <ImageView
+            android:id="@+id/abEmblemImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:paddingBottom="4dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/abLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="0dp"
+        android:background="#88000000"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/layout/action_badge.xml -->

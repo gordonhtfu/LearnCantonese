@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_key_display_order" translatable="false">pk_display_order</string>
+    <string name="pref_display_order_sn" translatable="false">sn</string>
+</resources>

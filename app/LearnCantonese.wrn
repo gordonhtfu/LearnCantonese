@@ -1,0 +1,6 @@
+(res/drawable-mdpi-v4/launcher.png) found an alternate icon with better size:impact=1
+(AndroidManifest.xml) minsdkVersion: 18 is higher than 17:required minimal OS version=10.3:impact=5
+(AndroidManifest.xml) targetSdkVersion: 20 is higher than 18:impact=1
+Resizing icon launcher.png 256x256 -> 114x114
+Summary: [5]=1; [4]=0; [3]=0; [2]=0; [1]=2;
+Impact Legend: [5]=Severe; [4]=High /context; [3]=Medium /context; [2]=Medium-low /context; [1]=Minor;

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selector"
+    android:minHeight="72dp">
+
+    <ImageView
+        android:id="@+id/iconImage"
+        android:src="@drawable/ic_email" 
+        style="@style/PrimaryListItemImage"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/content_start_margin"
+        android:layout_marginRight="@dimen/edge_margin"
+        android:layout_toRightOf="@id/iconImage"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:id="@+id/text1_container"
+            android:layout_width="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/timestamp"
+            android:layout_height="wrap_content">
+            
+            <RelativeLayout
+                android:id="@+id/counter_container"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/squircle"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" >
+
+                <TextView
+                    android:id="@+id/counter_text"
+                    style="@style/CounterTextStyle"
+                    android:layout_centerInParent="true"
+                    android:text="10/191" />
+            </RelativeLayout>
+            
+            <TextView
+                android:id="@+id/text_1"
+                style="@style/PrimaryTextStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="ss" />
+            
+            
+            
+        </LinearLayout> 
+       
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_below="@id/text1_container"
+            android:text="World"
+            style="@style/SecondaryTextStyle" />
+
+        <TextView
+            android:id="@id/timestamp"
+            android:layout_alignBaseline="@id/text1_container"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:text="10/14/14 10:10am"
+            style="@style/SecondaryTextStyle"
+            android:textSize="@dimen/date_text_size"
+            />
+        
+        
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libcommonui/src/main/res/layout/standard_list_item_object.xml -->

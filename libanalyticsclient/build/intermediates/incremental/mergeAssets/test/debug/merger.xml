@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/exploded-aar/CantoneseChallenge/libpimclient/unspecified/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/build/intermediates/bundles/debug/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libanalyticsclient/src/androidTest/assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="max_tags_when_collapsed" format="integer" />
+    <attr name="read_only" format="boolean" />
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/bright.xml -->
+    <eat-comment />
+
+    <color name="bright_base">#E6E6E6</color>
+    <color name="bright_gradient_bottom">#E6E6E6</color>
+    <color name="bright_gradient_top">#F0F0F0</color>
+    <color name="bright_highlight">#F0F0F0</color>
+    <color name="bright_overlay">#26000000</color>
+    <color name="bright_stroke">#34000000</color>
+    <color name="bright_text_error">#d60000</color>
+    <color name="bright_text_primary">#323232</color>
+    <color name="bright_text_secondary">#646464</color>
+    <color name="bright_text_selected">#F0F0F0</color>
+    <color name="bright_text_tertiary">#969696</color>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/email_tag.xml -->
+    <eat-comment />
+
+    <color name="email_external_tag_gradient_bottom">#DBBAC3</color>
+    <color name="email_external_tag_gradient_top">#F4CFD8</color>
+    <color name="email_external_tag_selected_gradient_bottom">#B22D86</color>
+    <color name="email_external_tag_selected_gradient_top">#CC3399</color>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/skyblue.xml -->
+    <eat-comment />
+
+    <color name="skyblue_gradient_bottom">#0080B3</color>
+    <color name="skyblue_gradient_top">#0092CC</color>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/tagtextview.xml -->
+    <eat-comment />
+
+    <color name="tagtextview_more_text_color">#aaaaaa</color>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="BaseTags">
+        <attr name="auto_generate_tag_flags">
+            <flag name="auto_tag_none" value="0x0" />
+            <flag name="auto_tag_on_focus_lost" value="0x1" />
+        </attr>
+        <attr name="read_only" />
+        <attr name="max_tags_when_collapsed" />
+        <attr name="use_soft_focus" format="boolean" />
+        <attr name="tags_title" format="string" />
+        <attr name="drag_group" format="string" />
+    </declare-styleable>
+    <declare-styleable name="EmailTag">
+        <attr name="state_email_external" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" />
+        <attr name="verticalSpacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_fill_remaining_width" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ListItem">
+        <attr name="state_soft_focus" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/maxlinearlayout.xml -->
+    <eat-comment />
+
+    <declare-styleable name="MaxLinearLayout">
+        <attr name="android:maxWidth" />
+        <attr name="android:maxHeight" />
+    </declare-styleable>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="RelatedTagListView">
+        <attr name="horizontalSpacing" />
+    </declare-styleable>
+    <declare-styleable name="StandardTag">
+        <attr name="state_invalid" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="WrapTagListView">
+        <attr name="max_tags_when_collapsed" />
+        <attr name="read_only" />
+    </declare-styleable>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/basetag_dimens.xml -->
+    <eat-comment />
+
+    <dimen name="basetag_height">32dp</dimen>
+    <dimen name="basetag_spacing">4dp</dimen>
+    <dimen name="basetag_text_padding_bottom">8dp</dimen>
+    <dimen name="basetag_text_padding_left">8dp</dimen>
+    <dimen name="basetag_text_padding_right">12dp</dimen>
+    <dimen name="basetag_text_padding_top">8dp</dimen>
+    <dimen name="basetag_text_size">14sp</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/contactlistitem_dimens.xml -->
+    <eat-comment />
+
+    <dimen name="contactlistitem_border_width">1dp</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/frequentgroup.xml -->
+    <eat-comment />
+
+    <dimen name="fg_actionbadge_halfpadding">4dp</dimen>
+    <dimen name="fg_max_large_actionbadge_size">240dp</dimen>
+    <dimen name="fg_max_medium_actionbadge_size">160dp</dimen>
+    <dimen name="fg_max_small_actionbadge_size">120dp</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/tagtextview.xml -->
+    <eat-comment />
+
+    <dimen name="tagtextview_completions_left_offset">20dp</dimen>
+    <dimen name="tagtextview_compound_padding">2dp</dimen>
+    <dimen name="tagtextview_more_padding_left">8dp</dimen>
+    <dimen name="tagtextview_more_padding_right">8dp</dimen>
+    <dimen name="tagtextview_more_text_size">18sp</dimen>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/frequentgroup.xml -->
+    <eat-comment />
+
+    <item name="fgLocation1" type="id"/>
+    <item name="fgLocation10" type="id"/>
+    <item name="fgLocation2" type="id"/>
+    <item name="fgLocation3" type="id"/>
+    <item name="fgLocation4" type="id"/>
+    <item name="fgLocation5" type="id"/>
+    <item name="fgLocation6" type="id"/>
+    <item name="fgLocation7" type="id"/>
+    <item name="fgLocation8" type="id"/>
+    <item name="fgLocation9" type="id"/>
+    <item name="frequent_group_1" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_2" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_3" type="layout">@layout/frequent_group_1_to_3</item>
+    <item name="frequent_group_4" type="layout">@layout/frequent_group_4_to_5</item>
+    <item name="frequent_group_5" type="layout">@layout/frequent_group_4_to_5</item>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="accounts">Accounts</string>
+    <string name="action_settings">Settings</string>
+    <string name="actions">Actions</string>
+    <string name="actions_tbd">Actions TBD</string>
+    <string name="app_name">BlackBerry Widgets Library</string>
+    <string name="frequent">Frequent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="letter_x">x</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/tagtextview.xml -->
+    <eat-comment />
+
+    <string name="tagtextview_more_text">\u002B<ns1:g id="count">%1$s</ns1:g></string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/smartintentchooser.xml -->
+    <eat-comment />
+
+    <string name="text_messages">Text Messages</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_tags">TagsActivity</string>
+    <!-- From: file:/Users/gofu/AndroidStudioProjects/CantoneseChallenge/libbbwidgets/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
